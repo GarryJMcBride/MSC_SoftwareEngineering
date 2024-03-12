@@ -1,0 +1,336 @@
+kremer Data Set
+
+RUN 1
+Results with the following rates
+Population: 500
+Mutation rate: 0.1 
+Crossover: 0.9
+Generations: 1500
+
+   	      	                  fitness                  	             size             
+  x = um.multiply(x, x, out=x)
+   	      	-------------------------------------------	------------------------------
+gen	nevals	avg         	max         	min    	std	avg  	max	min	std   
+0  	500   	1.20425e+304	1.50548e+306	1396.21	inf	3.172	7  	2  	1.3017
+1  	458   	3.01051e+303	1.50525e+306	1396.21	inf	3.948	25 	1  	2.40693
+2  	463   	2.65165e+120	1.32582e+123	1390.21	5.92333e+121	4.068	35 	1  	3.299  
+3  	446   	3.01051e+303	1.50525e+306	1390.21	inf         	3.904	37 	1  	2.90496
+4  	456   	inf         	inf         	1384.81	nan         	7.33 	34 	3  	3.75248
+5  	460   	1.81289e+161	9.06443e+163	1376.81	inf         	10.122	31 	1  	4.51698
+6  	455   	1.51733e+296	7.58665e+298	1371.81	inf         	15.664	50 	3  	6.67766
+7  	447   	537074      	2.2439e+08  	1358.82	1.01796e+07 	22.018	45 	1  	7.55153
+8  	465   	2.08816e+284	1.04408e+287	1258.16	inf         	31.382	74 	2  	11.0301
+9  	465   	1.38746e+234	6.93732e+236	1193.95	inf         	37.172	89 	3  	13.7487
+10 	445   	inf         	inf         	1192.76	nan         	37.234	84 	2  	13.4674
+
+1490	448   	2.2651e+297 	1.13255e+300	0.230694	inf         	596.17 	649	121	34.437 
+1491	443   	4.88501e+283	2.44251e+286	0.230371	inf         	595.37 	677	1  	44.9547
+1492	462   	8.06061e+296	4.0303e+299 	0.227745	inf         	596.738	651	3  	35.909 
+1493	461   	2.05759e+189	1.0288e+192 	0.227745	inf         	594.358	655	121	40.6368
+1494	451   	1.3395e+209 	6.69748e+211	0.226699	inf         	593.998	650	120	37.2291
+1495	445   	4.18328e+292	2.08168e+295	0.226699	inf         	595.202	847	270	31.8714
+1496	475   	3.01052e+303	1.50525e+306	0.224271	inf         	595.144	650	21 	32.9926
+1497	453   	1.73987e+283	8.69936e+285	0.22325 	inf         	592.84 	669	3  	41.4975
+1498	459   	4.22127e+304	1.35473e+307	0.22325 	inf         	592.17 	646	6  	41.2691
+1499	472   	3.01051e+303	1.50525e+306	0.222352	inf         	595.462	686	7  	37.0674
+1500	454   	1.21577e+294	6.07886e+296	0.222352	inf         	593.766	634	120	34.7101
+
+Best individual is safeDiv(add(add(add(add(add(add(add(add(add(add(ARG3, mul(safeSin(sub(sub(safeDiv(sub(ARG4, ARG1), safeExp(ARG5)), ARG2), safeDiv(ARG2, safeSin(ARG3)))), mul(safeDiv(add(safeDiv(safeExp(ARG1), sub(ARG4, ARG3)), sub(sub(ARG4, ARG2), 372)), ARG2), safeDiv(safeDiv(ARG1, ARG0), safeCos(mul(55, safeSin(ARG3))))))), safeDiv(ARG1, safeLog(sub(safeLog(safeDiv(safeDiv(ARG2, safeCos(ARG2)), safeCos(ARG2))), mul(mul(safeLog(safeSin(ARG2)), ARG1), safeSin(ARG3)))))), mul(safeSin(sub(ARG4, add(ARG2, sub(safeCos(safeDiv(safeDiv(ARG1, ARG0), ARG0)), add(safeSin(ARG3), neg(ARG1)))))), safeDiv(ARG2, safeSin(ARG3)))), safeDiv(ARG1, safeDiv(safeDiv(mul(ARG3, safeDiv(ARG1, safeDiv(333, ARG0))), safeLog(ARG2)), ARG0))), add(safeExp(safeSin(sub(ARG4, safeLog(sub(add(safeDiv(safeDiv(safeSin(ARG5), ARG1), safeSin(sub(ARG4, 333))), -175), mul(mul(safeExp(ARG1), safeExp(ARG1)), safeLog(safeSin(ARG3)))))))), add(safeExp(safeSin(sub(ARG4, ARG3))), add(ARG1, safeExp(neg(safeSin(add(sub(safeLog(safeSin(ARG3)), ARG3), add(safeExp(sub(ARG4, ARG3)), safeExp(ARG2)))))))))), safeDiv(safeDiv(add(safeExp(neg(safeSin(add(neg(safeSin(ARG3)), safeExp(ARG2))))), neg(add(safeDiv(mul(ARG5, ARG0), safeLog(ARG0)), ARG2))), safeExp(add(safeExp(safeDiv(safeExp(add(safeExp(safeDiv(ARG5, safeDiv(333, ARG0))), safeDiv(safeDiv(ARG4, 333), ARG0))), ARG3)), safeExp(neg(mul(safeSin(sub(ARG4, ARG2)), safeDiv(safeDiv(ARG2, ARG0), safeSin(ARG3)))))))), safeDiv(ARG1, safeExp(add(safeExp(neg(add(neg(safeSin(ARG5)), safeSin(safeExp(ARG1))))), safeExp(neg(ARG1))))))), safeDiv(safeDiv(safeDiv(ARG2, safeCos(neg(add(add(ARG0, neg(safeSin(mul(-435, neg(safeSin(ARG3)))))), safeSin(add(319, add(ARG3, ARG3))))))), safeSin(ARG3)), ARG0)), safeDiv(ARG1, add(add(ARG2, safeDiv(add(safeLog(sub(safeLog(safeDiv(safeDiv(safeDiv(ARG2, safeSin(ARG3)), safeSin(ARG3)), safeSin(ARG3))), mul(mul(ARG5, safeCos(safeDiv(ARG5, 319))), safeLog(safeSin(ARG3))))), neg(add(safeCos(neg(safeExp(add(safeExp(ARG2), neg(safeCos(ARG2)))))), safeDiv(safeDiv(ARG5, 333), ARG0)))), safeExp(add(safeExp(safeSin(safeDiv(safeSin(sub(ARG4, ARG2)), sub(sub(safeSin(ARG3), add(safeSin(ARG0), neg(ARG1))), ARG0)))), safeExp(neg(safeDiv(safeLog(safeDiv(ARG3, ARG5)), safeLog(ARG0)))))))), mul(safeSin(sub(ARG4, safeDiv(ARG2, safeSin(ARG3)))), safeDiv(ARG2, safeSin(ARG3)))))), add(safeDiv(safeDiv(ARG2, safeCos(neg(safeExp(add(safeExp(neg(add(neg(safeSin(add(ARG3, ARG3))), safeSin(safeExp(safeDiv(safeDiv(ARG5, 319), safeSin(ARG3))))))), safeExp(sub(safeDiv(safeDiv(safeSin(ARG3), sub(ARG1, add(safeSin(ARG3), neg(ARG1)))), sub(sub(safeDiv(ARG5, -435), ARG2), safeDiv(ARG2, safeSin(ARG3)))), safeDiv(safeDiv(ARG1, ARG0), safeCos(ARG2))))))))), safeSin(ARG3)), safeDiv(safeExp(safeExp(neg(safeSin(add(safeSin(sub(safeLog(add(ARG2, ARG2)), safeDiv(ARG2, safeSin(ARG3)))), safeExp(ARG2)))))), safeExp(add(safeExp(ARG4), safeExp(safeDiv(safeExp(add(safeExp(safeExp(safeSin(sub(mul(-435, 319), add(ARG3, ARG3))))), neg(ARG1))), add(mul(safeSin(sub(ARG4, neg(safeDiv(ARG2, safeSin(ARG3))))), safeDiv(safeDiv(safeDiv(ARG2, safeLog(add(safeSin(ARG3), safeSin(ARG2)))), neg(add(safeSin(ARG3), safeSin(safeExp(ARG1))))), safeExp(sub(safeDiv(safeLog(safeSin(ARG3)), ARG3), safeDiv(ARG1, safeCos(ARG2)))))), add(ARG2, add(add(add(safeLog(safeSin(ARG3)), neg(add(safeDiv(ARG1, ARG0), safeSin(ARG5)))), ARG2), 319)))))))))), safeDiv(safeDiv(ARG2, safeCos(neg(add(add(safeDiv(ARG5, 333), safeDiv(safeExp(safeSin(sub(ARG4, ARG3))), ARG0)), safeSin(add(neg(ARG1), add(ARG3, ARG5))))))), add(add(safeDiv(ARG2, safeSin(ARG3)), safeDiv(safeExp(safeSin(safeDiv(safeSin(sub(sub(safeDiv(sub(ARG4, safeCos(mul(55, safeSin(ARG3)))), safeLog(sub(mul(55, safeSin(ARG5)), mul(sub(ARG4, 333), ARG0)))), safeDiv(ARG2, safeLog(safeSin(ARG3)))), safeDiv(ARG2, safeSin(mul(ARG5, safeCos(safeDiv(add(ARG3, ARG3), 319))))))), add(safeDiv(ARG1, ARG0), safeSin(ARG3))))), safeExp(add(safeLog(safeSin(ARG3)), safeExp(safeSin(sub(ARG5, mul(safeSin(sub(ARG4, safeDiv(ARG2, safeSin(sub(ARG4, ARG3))))), safeDiv(ARG2, safeSin(ARG3)))))))))), mul(safeSin(sub(ARG5, ARG2)), safeDiv(safeDiv(safeDiv(ARG2, ARG0), safeSin(ARG3)), ARG0))))), ARG0) with fitness value: (0.22235215487841486,)
+The data line: [3.0, 1.0, 14.0, 60.2, 1044.3, 976.0] was used as a test. The estimated effort is: 22.67770848311177
+The actual effort is:  69.9
+The data line: [1.0, 1.0, 26.0, 164.8, 1347.5, 1375.0] was used as a test. The estimated effort is: 288.06040054468946
+The actual effort is:  246.9
+The mean average error for the test suite is: 6.061890972198768
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RUN 2
+Results with the following rates
+Population: 400
+Mutation rate: 0.2
+Crossover: 0.8
+Generations: 1500
+   	      	          fitness          	              size             
+   	      	---------------------------	-------------------------------
+gen	nevals	avg	max	min    	std	avg  	max	min	std    
+0  	400   	inf	inf	1413.31	nan	3.375	7  	2  	1.42807
+
+1  	365   	4.71896e+296	1.88758e+299	1396.21	inf	4.7625	32 	1  	4.20846
+2  	344   	1.5184e+304 	4.56833e+306	1396.21	inf	7.31  	43 	1  	6.3509 
+3  	348   	1.44006e+304	5.76025e+306	1262.1 	inf	6.3225	43 	1  	5.44275
+4  	351   	4.59394e+303	1.83758e+306	1262.1 	inf	5.99  	36 	1  	4.6438 
+5  	344   	1.57303e+255	6.29211e+257	1262.1 	inf	7.6925	33 	1  	4.28578
+6  	330   	6.52026e+303	2.6081e+306 	1262.1 	inf	6.915 	29 	1  	3.80562
+7  	332   	1.55613e+304	4.71927e+306	1027.53	inf	7.035 	30 	1  	3.99234
+8  	337   	1.22352e+305	4.89409e+307	1013.99	inf	9.1625	38 	1  	6.54493
+9  	341   	6.28495e+197	2.51396e+200	1013.76	inf	22.55 	53 	3  	8.21021
+10 	336   	inf         	inf         	991.721	nan	21.59 	53 	1  	8.00168
+
+1490	332   	nan         	nan         	nan    	nan         	293.007	347	96 	23.8459
+1491	359   	nan         	nan         	nan    	nan         	289.5  	393	109	26.5375
+1492	325   	nan         	nan         	nan    	nan         	289.863	327	107	23.9324
+1493	332   	nan         	nan         	nan    	nan         	287.495	336	7  	31.1865
+1494	322   	nan         	nan         	nan    	nan         	290.288	343	110	24.2603
+1495	325   	nan         	nan         	nan    	nan         	292.265	347	117	26.2007
+1496	346   	nan         	nan         	nan    	nan         	295.21 	398	149	22.6069
+1497	344   	nan         	nan         	nan    	nan         	291.69 	398	4  	36.705 
+1498	351   	nan         	nan         	nan    	nan         	293.1  	348	110	27.1075
+1499	343   	nan         	nan         	nan    	nan         	293.183	398	113	27.6088
+1500	343   	nan         	nan         	nan    	nan         	292.502	327	110	27.404 
+Best individual is safeDiv(safeDiv(sub(ARG5, mul(safeExp(safeDiv(safeSin(ARG4), safeSin(add(add(ARG3, sub(ARG5, mul(safeExp(ARG0), safeCos(mul(neg(safeExp(safeSin(ARG3))), sub(safeDiv(sub(safeExp(-45), sub(ARG3, ARG5)), sub(ARG1, ARG0)), ARG0)))))), safeSin(add(ARG5, sub(safeLog(sub(ARG3, safeDiv(-34, sub(mul(safeExp(ARG5), ARG0), safeExp(ARG0))))), safeExp(ARG5)))))))), safeLog(ARG3))), neg(sub(safeSin(ARG3), safeLog(sub(ARG4, safeDiv(ARG3, sub(safeSin(add(ARG3, safeExp(safeLog(ARG4)))), safeDiv(safeExp(mul(safeSin(ARG3), safeSin(safeLog(mul(safeDiv(sub(ARG1, ARG0), ARG2), safeCos(ARG4)))))), safeCos(sub(safeCos(add(mul(safeCos(safeDiv(-34, ARG2)), add(safeExp(ARG0), -223)), safeExp(safeExp(ARG0)))), safeLog(ARG3))))))))))), safeSin(safeDiv(mul(sub(ARG5, neg(sub(sub(150, safeDiv(safeSin(-223), safeSin(add(add(ARG3, sub(ARG5, mul(safeExp(ARG0), safeExp(add(ARG4, ARG3))))), safeSin(add(ARG5, sub(safeSin(ARG2), safeSin(-34)))))))), safeDiv(mul(safeCos(mul(safeSin(-223), mul(safeExp(ARG0), safeExp(add(ARG4, safeCos(mul(safeExp(ARG5), ARG0))))))), add(safeExp(safeCos(safeExp(ARG3))), safeExp(sub(safeCos(sub(ARG5, safeLog(add(mul(ARG3, ARG3), add(ARG5, ARG5))))), safeSin(-34))))), safeSin(add(neg(sub(ARG5, safeDiv(safeCos(safeLog(neg(safeDiv(ARG1, -34)))), safeSin(add(ARG2, ARG4))))), safeSin(add(add(ARG3, safeExp(safeExp(safeExp(ARG5)))), add(sub(ARG3, ARG1), safeExp(safeExp(safeExp(ARG4)))))))))))), safeCos(safeSin(safeLog(mul(safeExp(safeDiv(sub(safeDiv(safeCos(safeExp(ARG5)), safeSin(add(ARG2, safeExp(safeSin(sub(ARG3, ARG1)))))), safeDiv(sub(neg(ARG3), safeSin(ARG0)), neg(safeExp(safeCos(safeExp(ARG3)))))), safeLog(sub(add(safeExp(safeExp(ARG5)), safeLog(-34)), safeDiv(sub(sub(safeExp(ARG5), safeExp(safeLog(ARG5))), ARG1), ARG5))))), mul(sub(safeDiv(safeDiv(add(safeSin(ARG5), safeDiv(ARG0, safeCos(safeExp(ARG3)))), mul(ARG4, safeDiv(ARG1, -34))), safeDiv(sub(neg(ARG1), safeSin(sub(ARG3, safeCos(ARG4)))), sub(ARG5, safeCos(ARG4)))), safeExp(ARG5)), sub(safeDiv(-34, sub(mul(safeExp(ARG5), ARG0), safeExp(ARG0))), safeExp(ARG1)))))))), ARG2))) with fitness value: (32.47677795990228,)
+
+The data line: [3.0, 1.0, 14.0, 60.2, 1044.3, 976.0] was used as a test. The estimated effort is: 159.11177220600118
+The actual effort is:  69.9
+The data line: [1.0, 1.0, 26.0, 164.8, 1347.5, 1375.0] was used as a test. The estimated effort is: 199.22697455210348
+The actual effort is:  246.9
+The mean average error for the test suite is: 41.53874675810468
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RUN 3
+Second run with...
+Results with the following rates
+Population: 400
+Mutation rate: 0.2
+Crossover: 0.8
+Generations: 1500
+   	      	                  fitness                  	             size            
+   	      	-------------------------------------------	-----------------------------
+gen	nevals	avg         	max         	min    	std	avg	max	min	std  
+0  	400   	3.38683e+304	1.50525e+306	1410.65	inf	3.2	7  	2  	1.251
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\numpy\core\_methods.py:117: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+1  	331   	inf         	inf         	1352.11	nan	4.4675	30 	1  	3.73884
+2  	343   	8.21703e+233	3.28681e+236	1288.74	inf	6.4325	38 	1  	4.80889
+3  	340   	3.86516e+189	1.54607e+192	1288.71	inf	8.13  	41 	1  	4.80293
+4  	335   	inf         	inf         	1287.43	nan	9.15  	54 	1  	5.06828
+5  	327   	inf         	inf         	1285.1 	nan	10.0475	47 	1  	4.99752
+6  	348   	2.02579e+118	8.10316e+120	1278.75	4.04651e+119	10.4275	32 	1  	4.34911
+7  	329   	2.88035e+213	1.15214e+216	1247.19	inf         	12.1625	44 	1  	4.7049 
+8  	326   	62360.6     	3.44914e+06 	1231.63	326365      	14.3725	43 	1  	5.68056
+9  	336   	3.2183e+192 	1.28732e+195	1231.63	inf         	14.39  	45 	2  	6.38184
+10 	336   	1.07843e+208	4.31373e+210	1225.94	inf         	15.34  	70 	5  	7.26735
+
+1490	338   	inf         	inf         	11.8115	nan         	532.053	574	162	35.7405
+1491	341   	4.51411e+294	1.80564e+297	11.8114	inf         	525.635	643	3  	58.9453
+1492	337   	inf         	inf         	11.8112	nan         	533.11 	587	186	37.711 
+1493	332   	1.06415e+115	4.25661e+117	11.8112	2.12564e+116	542.43 	634	217	28.8633
+1494	348   	nan         	nan         	nan    	nan         	551.247	585	234	25.7845
+1495	344   	nan         	nan         	nan    	nan         	544.665	591	175	49.138 
+1496	332   	nan         	nan         	nan    	nan         	551.803	592	184	29.4083
+1497	334   	nan         	nan         	nan    	nan         	547.462	595	3  	59.6103
+1498	339   	3.58691e+297	1.43476e+300	11.8087	inf         	550.607	604	222	27.4851
+1499	327   	inf         	inf         	11.8087	nan         	544.27 	933	178	49.155 
+1500	335   	inf         	inf         	11.8086	nan         	546.65 	626	3  	40.3502
+Best individual is safeDiv(mul(ARG4, add(add(ARG3, sub(neg(neg(add(safeLog(add(ARG1, add(safeSin(safeDiv(mul(safeExp(ARG5), neg(ARG3)), safeDiv(safeCos(safeCos(ARG5)), safeCos(ARG3)))), add(ARG0, safeDiv(safeSin(ARG5), safeDiv(safeSin(safeLog(ARG1)), safeCos(ARG5))))))), add(safeDiv(safeLog(ARG1), safeSin(safeDiv(ARG5, safeCos(safeSin(ARG5))))), add(add(safeCos(mul(ARG3, safeDiv(safeCos(ARG5), safeCos(safeExp(safeLog(ARG4)))))), add(safeCos(neg(ARG3)), neg(safeDiv(ARG1, add(sub(safeLog(ARG2), add(ARG0, ARG1)), safeCos(safeDiv(ARG2, -363))))))), safeDiv(ARG0, neg(neg(add(safeSin(safeLog(add(ARG0, ARG1))), add(ARG0, safeDiv(safeSin(ARG5), safeCos(ARG4)))))))))))), sub(neg(add(safeExp(safeCos(add(neg(add(safeDiv(ARG4, safeLog(safeCos(ARG0))), add(ARG1, ARG1))), safeDiv(neg(add(sub(safeSin(ARG3), add(ARG0, ARG0)), add(safeCos(safeExp(ARG5)), safeDiv(ARG1, safeCos(ARG4))))), safeCos(ARG5))))), add(safeDiv(ARG0, neg(neg(add(safeSin(add(safeDiv(ARG1, ARG2), safeCos(ARG5))), add(safeCos(neg(ARG1)), safeDiv(safeSin(ARG5), safeCos(ARG4))))))), add(add(safeSin(neg(add(add(safeSin(ARG0), safeDiv(safeSin(ARG5), safeCos(ARG5))), safeDiv(ARG5, safeCos(safeCos(ARG4)))))), safeDiv(safeCos(safeDiv(safeDiv(safeSin(ARG5), safeCos(ARG4)), safeCos(mul(safeExp(ARG5), neg(ARG3))))), safeSin(ARG5))), safeDiv(ARG0, neg(neg(add(safeSin(safeLog(add(ARG1, ARG0))), add(ARG0, safeDiv(safeSin(ARG5), safeCos(ARG4))))))))))), add(add(safeDiv(safeLog(add(ARG1, add(safeSin(safeDiv(mul(safeExp(ARG5), neg(ARG3)), sub(safeDiv(ARG2, -363), safeLog(-364)))), add(ARG0, safeDiv(safeSin(ARG5), safeDiv(safeSin(safeLog(ARG1)), safeCos(ARG5))))))), neg(neg(add(safeSin(add(safeCos(safeLog(ARG4)), safeDiv(ARG5, safeCos(safeSin(ARG5))))), add(safeCos(safeLog(ARG5)), safeDiv(safeSin(safeLog(ARG1)), safeCos(ARG5))))))), add(add(safeSin(add(safeDiv(safeDiv(add(safeExp(neg(ARG1)), ARG2), safeSin(ARG5)), safeSin(ARG5)), safeDiv(ARG3, ARG1))), add(safeSin(safeDiv(neg(sub(safeCos(ARG5), add(ARG4, ARG1))), safeSin(safeCos(ARG4)))), add(safeCos(safeDiv(safeLog(ARG4), safeCos(mul(safeSin(ARG3), neg(ARG3))))), safeCos(add(safeExp(safeExp(safeLog(ARG4))), ARG5))))), safeDiv(safeSin(add(safeDiv(safeSin(ARG2), safeCos(safeExp(safeLog(ARG4)))), ARG5)), safeCos(add(safeDiv(add(safeDiv(ARG1, ARG2), ARG2), safeSin(ARG5)), safeDiv(ARG3, ARG1)))))), add(mul(ARG1, safeDiv(safeSin(ARG5), safeCos(ARG4))), ARG2))))), safeLog(mul(safeDiv(426, ARG3), add(sub(ARG4, safeLog(add(safeDiv(add(safeDiv(add(safeCos(ARG4), safeLog(add(safeCos(ARG3), ARG1))), safeCos(safeExp(ARG4))), safeLog(add(safeSin(safeLog(add(ARG1, ARG0))), add(ARG0, safeDiv(safeSin(ARG5), safeCos(ARG0)))))), safeCos(safeExp(ARG4))), ARG5))), neg(ARG3)))))), add(safeLog(safeDiv(safeLog(neg(add(safeSin(add(safeDiv(ARG3, safeDiv(safeSin(safeLog(ARG1)), ARG4)), safeDiv(safeSin(ARG5), safeDiv(safeDiv(neg(sub(neg(add(ARG1, safeDiv(426, ARG3))), add(ARG4, safeExp(ARG4)))), sub(ARG4, ARG2)), safeCos(ARG4))))), safeDiv(safeDiv(safeDiv(add(safeDiv(add(safeDiv(safeDiv(safeSin(ARG5), ARG0), safeCos(ARG4)), add(add(safeCos(neg(ARG5)), safeDiv(safeSin(ARG5), safeCos(ARG4))), safeLog(ARG1))), safeCos(safeExp(ARG5))), ARG2), safeSin(safeSin(safeLog(safeCos(mul(ARG2, ARG2)))))), safeDiv(safeSin(safeLog(ARG1)), safeCos(add(safeDiv(add(safeLog(safeCos(mul(ARG2, ARG2))), safeLog(add(safeCos(ARG2), ARG1))), safeCos(safeExp(ARG4))), ARG5)))), safeCos(ARG4))))), neg(neg(add(safeSin(add(safeDiv(add(safeExp(safeCos(add(ARG0, safeDiv(safeCos(ARG0), safeCos(ARG4))))), add(safeSin(safeDiv(mul(safeExp(ARG5), neg(ARG3)), safeCos(ARG4))), mul(neg(sub(ARG5, neg(ARG5))), safeDiv(safeCos(ARG3), safeExp(ARG4))))), ARG2), safeCos(mul(add(add(ARG1, safeLog(safeSin(ARG5))), add(ARG3, ARG4)), safeCos(ARG5))))), add(safeCos(neg(neg(neg(mul(add(ARG4, ARG1), safeExp(mul(sub(ARG3, ARG5), safeSin(ARG4)))))))), safeDiv(safeSin(ARG5), safeCos(ARG4)))))))), add(safeDiv(ARG3, ARG1), ARG5))) with fitness value: (11.808645570518603,)
+The data line: [3.0, 1.0, 14.0, 60.2, 1044.3, 976.0] was used as a test. The estimated effort is: 176.7810996985465
+The actual effort is:  69.9
+The data line: [1.0, 1.0, 26.0, 164.8, 1347.5, 1375.0] was used as a test. The estimated effort is: 206.4402327874571
+The actual effort is:  246.9
+The mean average error for the test suite is: 66.42133248600359
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RUN 4
+Results with the following rates
+Population: 400
+Mutation rate: 0.05
+Crossover: 0.7
+Generations: 1500
+
+
+   	      	                  fitness                  	              size             
+   	      	-------------------------------------------	-------------------------------
+gen	nevals	avg         	max         	min    	std	avg   	max	min	std    
+0  	400   	2.63474e+304	1.50525e+306	1290.09	inf	3.2525	7  	2  	1.32806
+1  	282   	1.32683e+111	5.30731e+113	1290.09	2.65033e+112	3.7675	34 	1  	2.24019
+2  	291   	6.20048e+08 	2.47973e+11 	1290.09	1.23831e+10 	4.955 	31 	1  	2.54322
+3  	284   	1.80113e+250	7.20452e+252	1290.09	inf         	5.305 	34 	3  	2.29281
+4  	284   	1.33605e+288	5.3442e+290 	1290.09	inf         	5.3675	41 	3  	2.70323
+5  	281   	3.45225e+165	1.3809e+168 	1290.09	inf         	5.2225	33 	1  	2.2623 
+6  	266   	114034      	3.46567e+06 	1290.09	609258      	5.26  	38 	1  	2.49548
+7  	293   	1.11941e+300	4.47765e+302	1290.09	inf         	5.295 	30 	2  	2.37444
+8  	289   	205994      	9.15094e+06 	1290.09	887420      	5.185 	25 	1  	1.82093
+9  	299   	4.89325e+247	1.9573e+250 	1290.09	inf         	5.37  	28 	3  	2.49662
+10 	288   	7.26238e+10 	2.90494e+13 	1290.09	1.45065e+12 	5.505 	35 	1  	3.04548
+
+1490	288   	1.34105e+196	5.36419e+198	72.9087	inf         	1032.71	1091	9  	73.9855
+1491	296   	213.236     	12359       	72.9087	648.823     	1035.6 	1076	333	39.3785
+1492	291   	6.64882e+63 	2.65953e+66 	72.906 	1.3281e+65  	1031.15	1070	12 	65.1337
+1493	283   	1.65656e+17 	6.62625e+19 	72.9004	3.30898e+18 	1034.37	1055	726	27.5014
+1494	272   	197.963     	8099.96     	72.9004	498.492     	1031.37	1079	11 	59.2934
+1495	295   	941.323     	160993      	72.8944	10489.6     	1030.61	1078	722	28.4671
+1496	284   	1385.34     	322225      	72.8879	16989.8     	1032.4 	1068	729	22.3733
+1497	298   	1267.77     	277575      	72.8781	15496.9     	1027.78	1055	725	34.5337
+1498	304   	637.507     	153128      	72.8781	7657.11     	1029.45	1060	11 	61.3274
+1499	281   	3.86115e+14 	1.54446e+17 	72.8719	7.71264e+15 	1030.71	1080	725	23.0044
+1500	289   	3.947e+31   	1.5788e+34  	72.8719	7.88412e+32 	1028.63	1071	44 	55.5262
+
+Best individual is safeDiv(sub(ARG2, neg(sub(ARG2, neg(ARG3)))), safeDiv(ARG5, sub(sub(sub(sub(sub(sub(sub(sub(sub(sub(sub(sub(ARG4, ARG2), ARG2), safeDiv(sub(sub(ARG2, neg(ARG5)), neg(sub(ARG3, ARG2))), ARG2)), sub(safeLog(mul(safeCos(neg(neg(ARG3))), safeCos(neg(ARG3)))), neg(safeSin(sub(ARG4, safeDiv(ARG3, neg(ARG3))))))), safeLog(mul(mul(safeSin(sub(sub(sub(ARG5, ARG2), ARG2), sub(ARG2, neg(ARG3)))), safeCos(sub(ARG5, ARG2))), mul(mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(sub(ARG5, ARG2))), mul(safeSin(sub(neg(ARG2), neg(ARG3))), safeCos(sub(ARG5, ARG2))))))), safeLog(mul(mul(safeSin(neg(sub(ARG3, neg(ARG3)))), mul(mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(neg(ARG3))), mul(safeCos(neg(ARG3)), safeCos(sub(ARG5, safeLog(ARG5)))))), safeCos(sub(sub(ARG2, neg(ARG3)), ARG2))))), ARG2), safeDiv(ARG3, safeLog(mul(mul(safeSin(sub(ARG3, safeDiv(ARG5, sub(ARG3, sub(neg(ARG2), ARG2))))), safeCos(sub(ARG5, ARG2))), mul(mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(-327)), mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(sub(ARG5, ARG2)))))))), safeDiv(sub(sub(sub(sub(neg(safeCos(sub(neg(ARG3), sub(ARG3, neg(ARG3))))), neg(ARG3)), neg(ARG3)), neg(ARG3)), mul(ARG5, mul(safeSin(sub(ARG3, neg(sub(ARG4, neg(ARG2))))), mul(mul(safeSin(add(neg(ARG4), neg(ARG4))), neg(safeLog(sub(sub(ARG3, safeSin(ARG3)), safeSin(ARG3))))), mul(safeSin(sub(ARG3, neg(sub(ARG4, neg(ARG2))))), safeCos(sub(sub(add(neg(ARG4), neg(ARG4)), neg(ARG3)), sub(neg(ARG2), ARG2)))))))), ARG2)), safeLog(mul(mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), mul(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3))))), mul(safeSin(mul(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3))))), ARG1)), mul(mul(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3))))), safeCos(sub(safeSin(sub(ARG3, neg(ARG5))), sub(neg(ARG2), ARG2)))), mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), mul(mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(neg(neg(ARG3)))), mul(safeSin(sub(ARG3, neg(ARG3))), neg(ARG1)))))))), mul(safeSin(mul(mul(safeSin(mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), safeCos(sub(neg(ARG2), ARG2)))), mul(mul(safeSin(sub(sub(sub(ARG5, ARG2), ARG2), sub(safeLog(ARG3), neg(ARG3)))), safeCos(sub(ARG5, ARG2))), mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), safeCos(sub(ARG5, ARG2))))), mul(safeSin(ARG3), mul(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3))))), mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(sub(ARG5, ARG2)))))))), mul(safeSin(mul(safeSin(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3)))))), safeCos(sub(sub(ARG2, sub(sub(safeCos(ARG3), ARG2), -327)), mul(safeSin(neg(ARG3)), neg(ARG2)))))), mul(safeSin(safeSin(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3))))))), mul(safeSin(safeSin(mul(safeSin(sub(ARG3, neg(ARG3))), ARG3))), mul(mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(sub(safeLog(ARG3), sub(neg(ARG2), ARG2)))), mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), safeCos(sub(ARG5, ARG2))))))))))), safeLog(mul(mul(safeSin(safeSin(mul(mul(safeSin(sub(ARG3, neg(ARG3))), mul(mul(safeSin(sub(ARG3, neg(ARG3))), safeSin(safeSin(sub(ARG3, neg(ARG3))))), mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(sub(ARG5, ARG2))))), mul(safeSin(sub(sub(ARG3, safeSin(ARG3)), neg(ARG3))), mul(safeSin(sub(ARG3, neg(ARG3))), mul(safeSin(sub(ARG3, neg(ARG3))), mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(sub(ARG5, ARG2))))))))), mul(mul(safeSin(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3)))))), safeCos(sub(sub(ARG2, sub(sub(safeSin(ARG3), ARG2), -327)), mul(safeSin(neg(ARG3)), sub(safeSin(ARG3), ARG2))))), mul(safeSin(sub(neg(neg(ARG4)), mul(safeLog(sub(sub(sub(ARG4, neg(ARG4)), neg(ARG4)), add(neg(ARG4), neg(ARG4)))), mul(safeCos(safeCos(sub(ARG2, neg(ARG3)))), safeSin(sub(ARG2, neg(ARG3))))))), mul(mul(safeSin(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3)))))), safeCos(sub(mul(safeSin(sub(ARG2, neg(ARG3))), sub(safeLog(ARG2), sub(neg(ARG2), ARG2))), sub(ARG2, sub(sub(safeCos(ARG4), ARG2), ARG2))))), mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), mul(mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), sub(safeCos(mul(safeCos(ARG2), neg(ARG3))), safeCos(-489))), mul(mul(safeSin(sub(ARG3, neg(ARG3))), safeLog(ARG4)), mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(sub(neg(ARG3), ARG2)))))))))), mul(mul(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3))))), ARG1), mul(safeSin(sub(ARG3, neg(ARG3))), mul(safeSin(sub(ARG3, neg(ARG3))), mul(safeSin(sub(ARG3, neg(ARG3))), mul(mul(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3))))), safeCos(sub(neg(ARG2), ARG2))), mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), safeCos(sub(ARG5, safeSin(sub(ARG3, neg(ARG3)))))))))))))), safeLog(mul(mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), mul(safeSin(sub(ARG3, neg(ARG3))), mul(safeSin(mul(safeSin(mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), safeCos(sub(safeSin(neg(ARG3)), sub(neg(ARG2), -327))))), ARG1)), mul(mul(safeSin(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3)))))), safeCos(sub(sub(safeDiv(ARG3, ARG3), sub(neg(ARG2), ARG2)), sub(mul(safeSin(sub(ARG2, neg(ARG3))), ARG2), ARG2)))), mul(safeSin(mul(safeSin(sub(ARG3, neg(ARG3))), ARG3)), mul(mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(ARG3)), mul(mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(sub(safeCos(ARG2), sub(neg(-327), ARG2)))), safeLog(mul(safeCos(neg(ARG3)), safeCos(neg(ARG3))))))))))), mul(safeSin(mul(mul(mul(safeSin(safeSin(mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(sub(safeSin(-327), sub(neg(-327), ARG2)))))), safeCos(sub(mul(safeSin(sub(ARG2, neg(ARG3))), sub(neg(ARG2), ARG2)), sub(neg(ARG2), sub(neg(safeSin(ARG3)), sub(neg(ARG2), ARG2)))))), mul(mul(safeSin(sub(sub(sub(sub(ARG5, ARG2), safeSin(ARG5)), ARG2), sub(ARG2, neg(ARG3)))), safeCos(neg(ARG4))), mul(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3))))), safeCos(sub(ARG5, ARG2))))), mul(safeSin(sub(ARG3, sub(ARG2, ARG1))), mul(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3))))), mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), mul(mul(safeSin(sub(ARG3, neg(ARG3))), safeCos(sub(safeCos(ARG2), sub(neg(-327), ARG2)))), safeCos(sub(ARG5, ARG2)))))))), mul(safeSin(mul(safeSin(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3)))))), safeCos(sub(sub(ARG2, sub(neg(ARG2), -327)), mul(safeSin(neg(ARG3)), neg(ARG2)))))), mul(safeSin(safeSin(mul(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3))))), safeCos(sub(safeSin(neg(ARG3)), sub(neg(-327), ARG2)))))), mul(safeSin(safeSin(safeSin(safeSin(sub(ARG3, neg(ARG3)))))), mul(mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), ARG1), mul(mul(safeSin(safeSin(sub(ARG3, neg(ARG3)))), safeCos(sub(safeSin(neg(sub(ARG3, ARG2))), sub(neg(ARG2), ARG2)))), safeCos(sub(neg(sub(ARG3, neg(ARG3))), ARG2))))))))))))) with fitness value: (72.87186864027467,)
+The data line: [3.0, 1.0, 14.0, 60.2, 1044.3, 976.0] was used as a test. The estimated effort is: 111.68492874213663
+The actual effort is:  69.9
+The data line: [1.0, 1.0, 26.0, 164.8, 1347.5, 1375.0] was used as a test. The estimated effort is: 218.96231303992266
+The actual effort is:  246.9
+The mean average error for the test suite is: 13.847241782059285
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RUN 5
+Results with the following rates
+Population: 450
+Mutation rate: 0.1
+Crossover: 0.7
+Generations: 1500
+
+   	      	          fitness          	              size             
+   	      	---------------------------	-------------------------------
+gen	nevals	avg	max	min    	std	avg    	max	min	std    
+0  	450   	inf	inf	1413.31	nan	3.28222	7  	2  	1.38336
+1  	326   	3.34501e+303	1.50525e+306	1410.26	inf	4.41111	30 	1  	2.95031
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\numpy\core\_methods.py:121: RuntimeWarning: overflow encountered in multiply
+  x = um.multiply(x, x, out=x)
+2  	316   	1.338e+304  	1.50525e+306	1381.36	inf	5.65778	35 	1  	4.44255
+3  	339   	2.25909e+13 	1.00633e+16 	1381.12	4.73865e+14	10.6822	37 	2  	6.56583
+4  	325   	5.50926e+16 	2.47917e+19 	1359.86	1.16739e+18	6.69778	45 	1  	3.22108
+5  	361   	1.59564e+193	7.18039e+195	1351.76	inf        	7.89333	32 	1  	3.40421
+6  	315   	7.56749e+51 	3.40537e+54 	1341.01	1.60352e+53	9.04222	31 	1  	2.67258
+7  	324   	1.08079e+23 	1.58399e+25 	1328.87	1.28906e+24	11.3422	52 	5  	4.36789
+8  	324   	1.79333e+196	8.06998e+198	1320.77	inf        	13.16  	36 	5  	3.40146
+9  	314   	1.13472e+257	5.10623e+259	1312.71	inf        	16.3867	37 	5  	4.09572
+10 	304   	inf         	inf         	1310.69	nan        	18.82  	48 	2  	5.14683
+
+1490	335   	2.8527e+254 	1.28372e+257	19.8972	inf         	465.967	522	185	24.4732
+1491	342   	276.521     	15183.6     	19.8972	1140.04     	466.3  	494	10 	32.0004
+1492	342   	7.05714e+15 	3.17571e+18 	19.896 	1.49538e+17 	462.918	575	9  	42.1269
+1493	350   	7.47098e+15 	3.36194e+18 	19.896 	1.58307e+17 	463.833	488	50 	31.8571
+1494	336   	455364      	2.04595e+08 	19.896 	9.63394e+06 	465.911	501	28 	39.2734
+1495	298   	3.34501e+303	1.50525e+306	19.896 	inf         	465.54 	507	36 	33.3398
+1496	329   	1.70046e+101	7.65208e+103	19.896 	3.60321e+102	465.978	523	186	28.3774
+1497	322   	7.47098e+15 	3.36194e+18 	19.896 	1.58307e+17 	465.611	527	52 	31.0373
+1498	321   	3.67378e+08 	1.6532e+11  	19.896 	7.78459e+09 	466.522	497	1  	34.8049
+1499	329   	7.18691e+207	3.23411e+210	19.8959	inf         	467.082	496	28 	29.5121
+1500	318   	1.41143e+16 	3.17571e+18 	19.8959	2.11243e+17 	468.753	497	319	19.988 
+
+Best individual is sub(safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(ARG3, ARG0), ARG0), safeCos(safeDiv(safeLog(safeSin(ARG3)), add(safeLog(ARG1), safeLog(safeSin(ARG4)))))), ARG0), ARG0), safeCos(safeLog(safeSin(mul(mul(safeDiv(ARG4, safeDiv(ARG3, ARG0)), mul(ARG1, ARG5)), add(safeSin(ARG1), ARG4)))))), ARG0), safeCos(safeLog(safeSin(safeCos(safeDiv(safeDiv(safeDiv(safeDiv(ARG3, ARG1), ARG0), safeLog(safeSin(ARG3))), safeDiv(safeDiv(ARG1, add(neg(ARG3), safeLog(safeSin(ARG4)))), safeLog(add(safeSin(sub(ARG5, ARG1)), ARG4))))))))), safeExp(safeExp(add(neg(ARG1), safeLog(safeCos(safeDiv(safeDiv(safeDiv(safeDiv(ARG3, ARG1), ARG0), safeLog(safeSin(ARG3))), safeDiv(safeDiv(ARG1, add(neg(ARG3), safeLog(safeSin(ARG4)))), safeLog(safeSin(safeDiv(ARG3, ARG0))))))))))), ARG0), safeCos(safeLog(safeDiv(safeSin(safeSin(safeSin(safeSin(safeSin(safeCos(safeDiv(safeDiv(safeDiv(safeDiv(ARG3, ARG0), ARG0), ARG0), safeDiv(safeDiv(safeLog(ARG2), ARG2), safeLog(safeSin(ARG3)))))))))), sub(add(neg(ARG1), safeLog(safeSin(ARG3))), sub(add(safeDiv(safeDiv(safeDiv(ARG3, safeLog(ARG1)), ARG0), ARG0), safeDiv(ARG3, safeExp(safeSin(ARG4)))), sub(safeSin(mul(ARG2, ARG5)), sub(safeLog(ARG5), ARG4)))))))), safeCos(safeLog(safeDiv(safeDiv(safeDiv(safeDiv(safeSin(safeSin(safeSin(sub(safeLog(mul(ARG1, ARG5)), sub(safeSin(safeLog(ARG2)), ARG4))))), sub(sub(safeDiv(safeLog(safeDiv(ARG0, sub(ARG4, safeDiv(-296, ARG2)))), add(safeLog(ARG1), safeLog(safeSin(ARG4)))), sub(mul(safeDiv(-296, ARG2), neg(safeDiv(ARG2, ARG0))), ARG4)), sub(mul(safeDiv(-296, ARG2), neg(ARG2)), ARG4))), safeLog(safeSin(safeDiv(ARG3, ARG0)))), sub(ARG3, sub(safeDiv(mul(safeDiv(-296, safeLog(mul(safeDiv(sub(-296, ARG4), ARG2), neg(ARG2)))), neg(safeDiv(ARG1, safeSin(ARG3)))), add(ARG2, safeLog(safeSin(safeDiv(safeLog(ARG2), ARG2))))), add(neg(ARG1), add(safeLog(safeSin(mul(neg(safeCos(ARG4)), safeDiv(safeCos(add(ARG3, ARG4)), safeDiv(ARG3, ARG0))))), ARG4))))), safeLog(safeSin(safeSin(safeCos(safeDiv(safeDiv(ARG3, ARG0), safeDiv(safeDiv(neg(ARG1), add(neg(ARG1), safeLog(safeSin(ARG4)))), ARG1)))))))))), safeCos(safeLog(mul(ARG4, safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(ARG2, safeExp(mul(ARG2, ARG5))), ARG0), safeCos(mul(sub(safeLog(ARG4), sub(ARG0, ARG4)), mul(safeDiv(-296, ARG2), neg(ARG2))))), safeDiv(sub(safeDiv(-296, ARG2), sub(safeLog(ARG2), ARG4)), mul(sub(safeDiv(safeLog(ARG3), add(neg(ARG1), safeExp(safeDiv(add(ARG0, add(ARG0, -101)), sub(-296, add(ARG1, ARG4)))))), sub(-296, ARG4)), safeDiv(ARG3, safeCos(safeDiv(safeLog(safeDiv(ARG2, sub(ARG4, sub(-495, ARG4)))), add(safeLog(ARG1), safeLog(safeSin(ARG4))))))))), safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(safeCos(safeDiv(-296, ARG2)), add(mul(mul(safeLog(ARG1), ARG3), ARG4), mul(safeDiv(-296, ARG2), safeDiv(-296, ARG2)))), safeLog(safeSin(safeSin(ARG3)))), sub(safeDiv(ARG2, safeSin(safeDiv(-296, ARG0))), sub(safeLog(add(-296, sub(add(ARG5, ARG1), safeDiv(ARG3, ARG0)))), ARG4))), safeLog(safeSin(safeSin(add(ARG1, ARG4))))), safeLog(safeSin(ARG3)))), safeCos(safeDiv(safeDiv(ARG1, safeLog(safeSin(ARG4))), safeLog(safeSin(safeDiv(safeDiv(safeDiv(safeDiv(safeDiv(ARG3, ARG0), ARG0), ARG0), ARG0), ARG0)))))))))), safeLog(safeSin(safeSin(safeSin(safeSin(safeSin(safeSin(safeSin(safeSin(safeCos(safeDiv(safeDiv(ARG3, ARG0), safeDiv(safeDiv(ARG1, add(neg(ARG1), safeLog(safeSin(ARG4)))), safeLog(safeSin(ARG3))))))))))))))) with fitness value: (19.895931441414408,)
+The data line: [3.0, 1.0, 14.0, 60.2, 1044.3, 976.0] was used as a test. The estimated effort is: 32.46499533446852
+The actual effort is:  69.9
+The data line: [1.0, 1.0, 26.0, 164.8, 1347.5, 1375.0] was used as a test. The estimated effort is: 160.7628508546307
+The actual effort is:  246.9
+The mean average error for the test suite is: 123.5721538109008
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RUN 6
+Results with the following rates
+Population: 450
+Mutation rate: 0.2
+Crossover: 0.9
+Generations: 1500
+
+   	      	                  fitness                  	              size             
+   	      	-------------------------------------------	-------------------------------
+gen	nevals	avg         	max         	min    	std	avg    	max	min	std    
+0  	450   	2.67601e+304	1.50525e+306	1396.21	inf	3.26667	7  	2  	1.31656
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\numpy\core\_methods.py:121: RuntimeWarning: overflow encountered in multiply
+  x = um.multiply(x, x, out=x)
+1  	404   	inf         	inf         	1393.21	nan	4.14   	37 	1  	3.12274
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\numpy\core\_methods.py:117: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+2  	419   	5.28531e+298	2.37836e+301	1290.09	inf	4.39333	27 	1  	3.6336 
+3  	427   	3.34501e+303	1.50525e+306	1290.09	inf	6.31111	37 	2  	4.20329
+4  	417   	2.71214e+304	1.06994e+307	1290.09	inf	7.40667	31 	1  	4.35344
+5  	405   	7.12962e+299	3.19436e+302	1290.09	inf	5.97111	28 	1  	3.5934 
+6  	413   	5.03394e+297	1.13272e+300	1290.09	inf	5.81778	28 	2  	3.4445 
+7  	414   	2.79409e+297	1.25734e+300	1282.92	inf	5.95778	27 	1  	3.68064
+8  	412   	4.11091e+303	1.50525e+306	1239.5 	inf	7.33111	44 	1  	5.27798
+9  	416   	1.59858e+219	7.19362e+221	1239.5 	inf	12.2756	41 	2  	6.22322
+10 	402   	2.51678e+297	1.13255e+300	1210.5 	inf	12.9778	44 	2  	5.47069
+
+1490	427   	9.18161e+195	4.13172e+198	179.679	inf         	404.08 	430	3  	26.0188
+1491	412   	5.51081e+296	2.47986e+299	179.679	inf         	400.451	462	6  	35.252 
+1492	407   	5.32084e+210	2.39438e+213	179.679	inf         	403.804	480	263	21.8924
+1493	401   	1.83836e+294	8.27262e+296	179.679	inf         	400.889	478	17 	35.6767
+1494	410   	2.79272e+174	1.25672e+177	179.679	inf         	399.982	444	4  	37.2639
+1495	402   	28410.2     	4.47126e+06 	179.679	309945      	404.34 	455	3  	25.9167
+1496	400   	5.6577e+174 	2.54597e+177	179.679	inf         	405.956	436	3  	35.0092
+1497	409   	1.32696e+301	5.97133e+303	179.679	inf         	409.098	452	160	28.0535
+1498	423   	3.95424e+299	1.77941e+302	179.679	inf         	410.858	453	164	27.6064
+1499	416   	4.21266e+195	1.8926e+198 	179.679	inf         	409.88 	478	3  	42.8141
+1500	414   	2.44761e+297	1.10143e+300	179.679	inf         	410.238	438	15 	33.4646
+Best individual is safeDiv(ARG3, safeDiv(safeDiv(safeDiv(ARG5, safeCos(mul(neg(mul(neg(safeCos(mul(safeSin(safeSin(safeCos(safeExp(ARG1)))), safeExp(safeDiv(mul(ARG3, ARG3), neg(-35)))))), neg(mul(safeCos(mul(safeSin(safeSin(mul(safeSin(-35), safeLog(ARG2)))), safeExp(safeExp(safeExp(safeCos(mul(ARG4, ARG1))))))), mul(safeSin(mul(ARG4, safeCos(mul(safeSin(safeCos(ARG1)), mul(safeSin(-35), safeExp(ARG1)))))), neg(mul(safeCos(mul(safeSin(-35), safeExp(ARG1))), mul(safeCos(safeDiv(safeSin(ARG5), mul(-35, ARG2))), mul(safeSin(ARG4), neg(-35)))))))))), mul(ARG0, mul(safeSin(mul(mul(ARG4, safeCos(mul(add(neg(safeSin(ARG4)), safeSin(sub(mul(ARG1, ARG4), safeCos(ARG2)))), safeCos(151)))), safeCos(mul(safeSin(mul(mul(safeSin(mul(ARG1, ARG3)), safeExp(ARG3)), safeExp(ARG1))), safeExp(mul(mul(mul(ARG4, ARG0), ARG0), ARG0)))))), neg(mul(safeSin(ARG4), neg(neg(safeExp(safeExp(safeExp(ARG1)))))))))))), safeCos(mul(neg(mul(safeCos(mul(safeSin(-35), safeExp(ARG1))), neg(mul(safeCos(mul(safeSin(mul(ARG4, safeCos(mul(safeDiv(safeExp(ARG1), 294), mul(safeSin(-35), safeExp(ARG1)))))), safeExp(ARG1))), mul(ARG0, mul(safeCos(mul(mul(safeSin(safeSin(safeExp(ARG3))), safeExp(ARG1)), safeExp(ARG1))), -35)))))), mul(neg(neg(safeExp(safeCos(ARG4)))), mul(safeDiv(mul(mul(ARG4, safeCos(safeExp(safeExp(safeCos(add(safeLog(add(294, 294)), add(neg(ARG4), safeExp(ARG1)))))))), safeCos(mul(safeSin(mul(mul(safeSin(ARG3), safeExp(ARG3)), safeDiv(neg(ARG4), mul(ARG1, ARG3)))), safeExp(mul(mul(mul(ARG4, ARG0), ARG0), ARG0))))), ARG5), neg(mul(safeSin(mul(mul(ARG4, safeCos(mul(safeSin(ARG1), mul(safeSin(ARG5), safeExp(ARG1))))), safeCos(-35))), neg(safeExp(safeCos(mul(mul(ARG4, safeCos(mul(safeSin(-35), safeExp(ARG1)))), safeCos(mul(safeSin(-35), safeExp(ARG1)))))))))))))), mul(mul(mul(ARG4, safeCos(mul(safeSin(ARG1), safeLog(add(mul(safeExp(ARG1), safeExp(ARG1)), add(mul(ARG1, mul(safeSin(safeSin(mul(safeSin(-35), safeExp(ARG4)))), ARG4)), mul(ARG4, safeDiv(safeExp(safeCos(safeExp(sub(mul(ARG0, ARG4), -35)))), safeSin(safeSin(safeExp(ARG3))))))))))), safeCos(mul(add(neg(safeSin(mul(safeSin(mul(ARG3, ARG3)), safeExp(safeExp(safeExp(ARG1)))))), safeSin(sub(neg(neg(safeExp(safeExp(safeExp(ARG1))))), ARG1))), mul(safeSin(ARG5), safeLog(mul(safeExp(safeExp(neg(safeSin(mul(safeSin(mul(ARG3, safeCos(ARG4))), safeExp(safeExp(safeExp(ARG0)))))))), mul(mul(safeSin(ARG3), mul(safeSin(safeSin(-35)), safeExp(safeDiv(ARG5, ARG1)))), ARG3))))))), safeExp(safeDiv(safeExp(safeExp(safeExp(ARG1))), safeExp(safeDiv(ARG3, safeExp(safeCos(mul(mul(mul(mul(ARG4, safeCos(mul(safeSin(safeExp(ARG0)), safeLog(add(294, 294))))), safeCos(mul(safeSin(ARG4), mul(safeSin(ARG4), safeExp(ARG0))))), safeCos(safeExp(safeExp(safeExp(ARG1))))), safeCos(mul(mul(mul(mul(ARG4, ARG0), ARG0), neg(safeDiv(ARG1, ARG1))), safeCos(mul(safeSin(ARG3), mul(safeSin(safeSin(-35)), safeExp(ARG4)))))))))))))))) with fitness value: (179.67904867031834,)
+The data line: [3.0, 1.0, 14.0, 60.2, 1044.3, 976.0] was used as a test. The estimated effort is: -49.50453663458771
+The actual effort is:  69.9
+The data line: [1.0, 1.0, 26.0, 164.8, 1347.5, 1375.0] was used as a test. The estimated effort is: -149.45740827604655
+The actual effort is:  246.9
+The mean average error for the test suite is: 515.7619449106343
+
+Process finished with exit code 0

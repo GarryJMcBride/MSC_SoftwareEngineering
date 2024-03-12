@@ -1,0 +1,348 @@
+Miyazaki Data Set
+
+
+
+RUN 1
+Results with the following rates
+Population: 400
+Mutation rate: 0.1 
+Crossover: 0.9
+Generations: 1500
+
+   	      	                  fitness                  	              size             
+   	      	-------------------------------------------	-------------------------------
+gen	nevals	avg         	max         	min 	std	avg  	max	min	std    
+0  	400   	5.09536e+302	2.03714e+305	1937	inf	3.265	7  	2  	1.33221
+1  	377   	7.81838e+287	3.12735e+290	1937	inf	3.8075	35 	1  	2.97581
+2  	355   	6.61015e+304	2.53026e+307	1937	inf	3.8425	31 	1  	3.56829
+3  	356   	3.2111e+287 	1.28444e+290	1937	inf	3.605 	37 	1  	2.92215
+4  	366   	2.05574e+305	8.21843e+307	1937	inf	3.83  	28 	1  	3.20017
+5  	357   	inf         	inf         	1937	nan	3.6225	29 	1  	2.5865 
+6  	353   	2.28811e+286	6.39486e+288	1937	inf	3.75  	37 	1  	3.42673
+7  	358   	8.72868e+287	3.49147e+290	1937	inf	3.61  	23 	1  	2.41721
+8  	370   	1.60949e+286	6.39486e+288	1937	inf	3.7325	32 	1  	3.13144
+9  	358   	5.10595e+284	2.04238e+287	1937	inf	3.5525	31 	1  	2.54897
+10 	365   	7.04359e+298	2.81743e+301	1937	inf	3.535 	24 	1  	2.44515
+
+1490	359   	inf         	inf         	886.004	nan         	296.683	353	6  	37.6579
+1491	370   	nan         	nan         	nan    	nan         	298.945	345	4  	32.3933
+1492	362   	nan         	nan         	nan    	nan         	294.225	335	4  	39.4985
+1493	363   	nan         	nan         	nan    	nan         	297.373	326	3  	33.9466
+1494	368   	nan         	nan         	nan    	nan         	296.74 	477	4  	42.6424
+1495	362   	nan         	nan         	nan    	nan         	296.442	368	3  	36.4595
+1496	350   	nan         	nan         	nan    	nan         	295.37 	355	3  	41.0862
+1497	346   	nan         	nan         	nan    	nan         	299.017	331	7  	28.1439
+1498	359   	nan         	nan         	nan    	nan         	295.735	332	3  	36.7456
+1499	356   	inf         	inf         	885.95 	nan         	297.712	342	86 	28.2818
+1500	369   	nan         	nan         	nan    	nan         	296.058	320	3  	37.0659
+Best individual is add(safeLog(sub(safeExp(safeLog(sub(safeExp(safeDiv(safeExp(safeSin(safeLog(add(add(add(ARG5, add(sub(ARG1, -18), ARG0)), ARG4), ARG6)))), safeSin(neg(neg(mul(safeSin(safeCos(safeExp(ARG0))), safeLog(ARG3))))))), sub(sub(sub(sub(add(ARG6, safeExp(safeDiv(safeExp(safeExp(safeSin(sub(ARG1, -18)))), safeSin(ARG6)))), safeExp(safeExp(mul(sub(sub(ARG5, ARG6), add(safeSin(safeLog(ARG6)), neg(ARG4))), mul(safeCos(sub(safeExp(ARG3), ARG6)), safeSin(safeExp(ARG3))))))), safeExp(safeExp(mul(sub(sub(sub(add(ARG5, ARG0), ARG6), ARG4), ARG6), mul(mul(safeCos(sub(ARG4, ARG6)), safeExp(add(ARG5, add(ARG3, ARG0)))), safeSin(safeExp(ARG3))))))), mul(sub(add(sub(neg(add(safeLog(mul(safeExp(ARG3), safeExp(ARG1))), add(add(sub(ARG3, -18), ARG3), add(sub(ARG3, -18), sub(-337, ARG5))))), sub(safeLog(safeDiv(safeSin(safeSin(ARG1)), mul(safeExp(ARG6), safeExp(312)))), neg(add(ARG4, sub(-337, ARG5))))), ARG6), mul(mul(sub(sub(add(ARG5, ARG0), ARG6), ARG4), mul(safeExp(safeCos(mul(safeCos(ARG5), safeExp(312)))), safeSin(safeExp(ARG3)))), ARG6)), safeSin(mul(safeExp(ARG3), ARG5)))), mul(safeExp(ARG3), mul(safeCos(sub(sub(ARG4, safeLog(add(sub(add(mul(ARG2, ARG1), add(ARG5, ARG0)), -18), neg(add(sub(ARG4, ARG5), sub(-337, ARG5)))))), ARG6)), safeLog(mul(sub(safeLog(mul(safeExp(sub(ARG1, ARG5)), safeSin(ARG4))), ARG6), mul(safeSin(safeCos(sub(ARG6, sub(ARG1, ARG6)))), safeSin(safeExp(ARG3))))))))))), sub(sub(safeLog(mul(safeSin(safeDiv(mul(neg(add(ARG4, sub(-337, ARG5))), ARG0), 312)), ARG5)), safeDiv(safeDiv(safeExp(safeDiv(safeExp(safeExp(safeSin(ARG5))), safeCos(safeExp(ARG2)))), add(safeCos(safeExp(safeDiv(safeExp(safeLog(safeExp(safeLog(safeLog(safeLog(ARG0)))))), safeCos(safeExp(ARG2))))), safeExp(safeExp(mul(sub(sub(ARG5, mul(safeExp(ARG1), safeExp(ARG1))), sub(sub(ARG4, ARG6), ARG0)), mul(mul(mul(safeCos(sub(ARG4, ARG6)), safeExp(add(ARG5, ARG4))), safeExp(add(ARG5, ARG3))), safeExp(ARG1))))))), safeCos(sub(ARG4, ARG3)))), safeExp(safeDiv(safeExp(safeExp(safeSin(ARG5))), safeCos(safeExp(ARG2))))))), ARG1) with fitness value: (885.9500634362215,)
+The data line: [35.1, 51.0, 0.0, 6.0, 347.0, 0.0, 122.0] was used as a test. The estimated effort is: 54.05368468692217
+The actual effort is:  50.1
+The data line: [55.0, 14.0, 24.0, 47.0, 202.0, 504.0, 932.0] was used as a test. The estimated effort is: 60.95190165131309
+The actual effort is:  31.5
+The mean average error for the test suite is: 33.40558633823525
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RUN 2
+Results with the following rates
+Population: 800
+Mutation rate: 0.2 
+Crossover: 0.9
+Generations: 500
+
+
+
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\python.exe "C:/Users/Garry/Documents/MSC Advanced Computer Science/Software Engineering/Cost Estimation/Miyazaki.py"
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\deap\tools\_hypervolume\pyhv.py:33: ImportWarning: Falling back to the python version of hypervolume module. Expect this to be very slow.
+  "module. Expect this to be very slow.", ImportWarning)
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\numpy\core\_methods.py:121: RuntimeWarning: overflow encountered in multiply
+   	      	                  fitness                  	              size             
+  x = um.multiply(x, x, out=x)
+   	      	-------------------------------------------	-------------------------------
+gen	nevals	avg         	max         	min 	std	avg    	max	min	std    
+0  	800   	2.51403e+299	2.51403e+301	1937	inf	3.27875	7  	2  	1.32705
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\numpy\core\_methods.py:117: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+1  	734   	inf         	inf         	1930.31	nan	4.7225 	42 	1  	3.84844
+2  	739   	inf         	inf         	1930.31	nan	4.38375	40 	1  	3.82413
+3  	737   	6.39407e+294	5.11526e+297	1929.59	inf	5.83   	42 	1  	4.05507
+4  	729   	1.59871e+286	6.39486e+288	1894.31	inf	7.82125	42 	1  	4.63404
+5  	751   	3.76465e+304	3.00964e+307	1850.75	inf	11.8012	45 	1  	5.40456
+6  	730   	inf         	inf         	1806.68	nan	15.1363	59 	1  	7.88322
+7  	746   	2.34618e+289	1.87692e+292	1570.57	inf	13.7863	47 	1  	6.27181
+8  	736   	3.14254e+298	2.51403e+301	1570.57	inf	17.405 	61 	1  	7.81191
+9  	754   	1.30544e+303	1.04433e+306	1334.46	inf	22.025 	66 	1  	10.8569
+10 	725   	inf         	inf         	1151.52	nan	27.3062	71 	1  	11.2371
+
+490	739   	3.12776e+300	2.50107e+303	294.042	inf	338.889	430	107	33.777 
+491	712   	1.69701e+301	1.34219e+304	293.938	inf	335.041	445	11 	35.2799
+492	725   	3.24761e+284	1.25882e+287	293.938	inf	329.481	550	1  	35.4236
+493	747   	1.15695e+303	9.25394e+305	293.881	inf	331.995	552	99 	33.0133
+494	728   	4.09421e+298	3.24869e+301	293.881	inf	335.935	412	108	29.429 
+495	745   	4.72658e+286	3.7749e+289 	293.823	inf	335.991	566	1  	35.768 
+496	720   	1.42633e+301	1.13054e+304	293.645	inf	333.3  	379	9  	38.8648
+497	742   	3.25549e+300	2.50107e+303	293.645	inf	334.905	394	110	30.6188
+498	751   	8.63631e+298	3.27349e+301	293.603	inf	333.493	529	105	36.5839
+499	743   	1.29989e+296	1.03991e+299	293.56 	inf	333.196	395	5  	37.9437
+500	741   	8.20056e+300	4.05912e+303	293.34 	inf	332.625	377	5  	38.6709
+Best individual is add(safeSin(safeDiv(sub(114, add(add(ARG3, ARG1), add(safeDiv(neg(mul(safeSin(neg(ARG6)), ARG6)), sub(sub(safeDiv(safeDiv(safeSin(add(ARG2, sub(safeExp(ARG4), 124))), safeLog(safeCos(sub(124, ARG4)))), safeLog(safeCos(ARG5))), add(safeCos(mul(ARG3, ARG6)), ARG2)), 33)), mul(safeCos(add(neg(sub(safeExp(ARG4), safeDiv(add(add(add(ARG1, ARG3), add(124, ARG0)), ARG3), -42))), ARG6)), ARG3)))), safeSin(safeDiv(sub(mul(safeCos(ARG0), 124), add(safeExp(add(ARG1, ARG0)), mul(sub(114, safeSin(sub(mul(safeExp(add(add(ARG3, ARG1), ARG0)), safeDiv(neg(ARG3), add(114, ARG6))), safeLog(safeCos(sub(safeExp(ARG4), ARG4)))))), mul(ARG3, ARG1)))), safeCos(ARG6))))), add(add(ARG3, ARG1), add(safeDiv(neg(mul(safeSin(neg(ARG1)), add(safeDiv(neg(add(add(neg(mul(safeSin(ARG0), mul(ARG3, ARG1))), mul(safeCos(add(ARG2, ARG6)), safeDiv(add(add(366, add(ARG0, add(124, ARG0))), ARG6), safeSin(mul(safeExp(add(ARG1, ARG0)), safeDiv(neg(ARG3), add(114, ARG6))))))), add(safeDiv(neg(mul(add(ARG0, ARG0), ARG0)), sub(sub(ARG3, 33), 33)), mul(safeCos(add(ARG2, ARG6)), safeDiv(add(add(124, mul(safeCos(ARG0), 366)), add(366, add(366, add(124, -42)))), safeSin(mul(safeExp(add(ARG1, ARG0)), safeDiv(neg(ARG3), add(114, ARG6))))))))), add(safeDiv(neg(mul(safeSin(neg(ARG1)), ARG6)), sub(sub(-42, 33), 33)), mul(safeCos(add(ARG2, 33)), mul(safeCos(add(safeExp(add(ARG1, ARG0)), mul(sub(114, ARG2), mul(sub(neg(114), 33), ARG1)))), ARG3)))), add(add(sub(add(sub(sub(safeDiv(safeSin(ARG4), safeLog(safeCos(sub(124, ARG4)))), safeLog(sub(safeExp(ARG4), safeCos(ARG3)))), mul(safeCos(ARG0), 124)), 366), mul(safeCos(mul(safeSin(neg(114)), ARG6)), add(add(114, ARG1), add(366, add(366, add(124, ARG3)))))), ARG0), add(add(mul(safeCos(add(add(ARG2, safeDiv(safeSin(add(124, ARG6)), safeLog(safeCos(ARG1)))), safeDiv(safeLog(ARG2), safeLog(safeCos(add(ARG0, ARG6)))))), mul(safeCos(add(safeExp(ARG0), ARG6)), 366)), mul(safeCos(add(add(ARG3, safeDiv(safeSin(sub(124, ARG4)), safeLog(safeCos(ARG1)))), sub(ARG3, 33))), mul(safeCos(add(safeExp(ARG0), neg(safeLog(ARG6)))), 366))), ARG6))))), sub(-42, 33)), mul(safeCos(sub(114, ARG2)), ARG3)))) with fitness value: (293.3400093808403,)
+The data line: [35.1, 51.0, 0.0, 6.0, 347.0, 0.0, 122.0] was used as a test. The estimated effort is: -41.720303610168344
+The actual effort is:  50.1
+The data line: [55.0, 14.0, 24.0, 47.0, 202.0, 504.0, 932.0] was used as a test. The estimated effort is: 54.745773594274866
+The actual effort is:  31.5
+The mean average error for the test suite is: 68.57453001589347
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+RUN 3
+Results with the following rates
+Population: 800
+Mutation rate: 0.05 
+Crossover: 0.9
+Generations: 1500
+
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\python.exe "C:/Users/Garry/Documents/MSC Advanced Computer Science/Software Engineering/Cost Estimation/Miyazaki.py"
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\deap\tools\_hypervolume\pyhv.py:33: ImportWarning: Falling back to the python version of hypervolume module. Expect this to be very slow.
+  "module. Expect this to be very slow.", ImportWarning)
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\numpy\core\_methods.py:121: RuntimeWarning: overflow encountered in multiply
+  x = um.multiply(x, x, out=x)
+   	      	                  fitness                  	             size             
+   	      	-------------------------------------------	------------------------------
+gen	nevals	avg         	max         	min 	std	avg    	max	min	std   
+0  	600   	1.01136e+305	6.04677e+307	2211	inf	3.29667	7  	2  	1.4102
+1  	539   	8.3801e+298 	2.51403e+301	1937	inf	4.15833	34 	2  	2.49264
+2  	541   	3.80303e+174	2.28182e+177	1819.82	inf	3.82333	30 	2  	2.07897
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\numpy\core\_methods.py:117: RuntimeWarning: invalid value encountered in subtract
+3  	562   	inf         	inf         	1819.82	nan	3.35167	34 	1  	1.9878 
+  x = asanyarray(arr - arrmean)
+4  	533   	2.56863e+185	1.54118e+188	1819.82	inf	4.58833	23 	1  	1.9102 
+5  	542   	2.89469e+216	1.73681e+219	1819.82	inf	5.22333	27 	1  	2.01663
+6  	552   	inf         	inf         	1819.82	nan	5.17   	22 	3  	1.76383
+7  	525   	4.75187e+61 	2.85112e+64 	1819.82	1.163e+63	5.13333	22 	1  	1.65999
+8  	553   	6.03466e+302	3.6208e+305 	1819.77	inf      	5.35833	27 	3  	2.2796 
+9  	544   	1.37631e+265	8.25788e+267	1689.33	inf      	6.23333	37 	1  	4.38622
+10 	538   	3.98574e+41 	2.37322e+44 	1276.75	9.6807e+42	15.1017	46 	2  	9.82877
+
+1490	535   	1.12448e+156	6.74688e+158	309.446	inf         	519.513	632 	3  	66.172 
+1491	538   	2.27883e+299	1.3673e+302 	309.446	inf         	523.395	562 	3  	49.1477
+1492	538   	2.92757e+184	1.75654e+187	309.281	inf         	520.442	576 	3  	53.7246
+1493	537   	2.34948e+279	1.40969e+282	309.259	inf         	520.573	578 	3  	45.721 
+1494	544   	7.85274e+280	4.71164e+283	309.259	inf         	518.822	556 	1  	57.6089
+1495	558   	3.41116e+177	2.04669e+180	308.339	inf         	518.247	555 	3  	55.1571
+1496	526   	9.84481e+171	5.90688e+174	308.328	inf         	523.05 	548 	18 	37.5601
+1497	549   	inf         	inf         	307.442	nan         	523.503	553 	12 	31.2904
+1498	555   	1.1415e+282 	6.84902e+284	307.066	inf         	519.562	612 	5  	55.1713
+1499	539   	3.46689e+35 	2.08013e+38 	305.073	8.48503e+36 	522.56 	566 	15 	35.6481
+1500	554   	3.32727e+296	1.99636e+299	305.004	inf         	519.613	615 	5  	60.6375
+Best individual is add(ARG1, safeDiv(mul(safeDiv(add(add(add(add(safeDiv(add(mul(234, add(safeDiv(add(add(sub(add(437, 437), add(ARG3, ARG3)), ARG6), add(add(add(234, 437), add(ARG4, 437)), neg(neg(ARG6)))), sub(ARG5, add(ARG0, ARG1))), add(neg(82), add(safeLog(safeCos(sub(ARG5, ARG4))), safeLog(safeCos(sub(ARG5, ARG4))))))), neg(sub(add(sub(add(ARG4, 437), safeLog(safeCos(sub(ARG5, ARG4)))), add(add(82, safeLog(ARG1)), add(234, 437))), add(add(sub(ARG5, ARG4), add(ARG3, add(ARG3, ARG3))), ARG6)))), 234), safeDiv(mul(safeDiv(add(ARG6, neg(neg(ARG6))), 234), add(ARG0, add(ARG0, add(neg(82), add(safeLog(safeCos(sub(ARG5, ARG4))), safeLog(neg(sub(ARG4, ARG6)))))))), 82)), neg(add(mul(neg(add(add(add(add(ARG1, ARG1), ARG1), add(ARG1, ARG1)), add(ARG1, ARG1))), safeCos(ARG0)), add(ARG0, ARG0)))), safeDiv(add(add(mul(sub(ARG0, add(ARG1, ARG1)), add(add(add(sub(add(sub(ARG5, add(ARG1, ARG1)), ARG0), add(ARG1, add(ARG1, ARG3))), neg(82)), ARG0), add(add(sub(add(sub(ARG5, add(ARG1, ARG1)), add(ARG2, ARG2)), add(ARG1, add(ARG1, ARG1))), ARG0), ARG0))), sub(mul(add(safeCos(ARG1), add(safeCos(add(neg(neg(ARG6)), ARG6)), add(safeCos(ARG6), safeLog(sub(ARG5, add(ARG0, ARG0)))))), sub(mul(add(safeCos(ARG6), safeLog(ARG1)), sub(add(sub(add(ARG0, 437), ARG1), 437), safeLog(safeCos(add(ARG0, ARG4))))), add(neg(82), add(safeLog(safeCos(add(ARG0, ARG4))), safeLog(safeCos(add(ARG0, ARG4))))))), add(safeDiv(add(ARG4, add(add(neg(82), ARG4), add(ARG0, ARG4))), safeCos(ARG0)), neg(add(neg(add(ARG1, add(add(ARG1, ARG1), ARG4))), neg(add(add(add(ARG3, ARG3), add(ARG1, ARG3)), add(add(ARG3, ARG3), ARG4)))))))), neg(neg(add(add(neg(add(sub(add(ARG3, ARG4), sub(ARG5, add(ARG1, ARG3))), add(ARG3, add(add(ARG4, ARG3), ARG4)))), neg(add(add(add(add(ARG1, ARG3), ARG1), add(ARG4, add(ARG1, ARG1))), ARG4))), neg(add(add(add(add(add(ARG3, ARG1), ARG3), add(add(ARG3, ARG3), ARG3)), ARG4), ARG6)))))), add(ARG1, safeDiv(mul(add(sub(add(ARG5, 82), add(add(add(ARG1, ARG1), ARG1), add(add(ARG1, ARG1), ARG1))), ARG3), add(add(add(sub(add(sub(ARG5, add(ARG0, ARG0)), add(ARG1, ARG3)), add(ARG0, ARG1)), add(mul(neg(add(ARG1, ARG4)), safeSin(sub(ARG5, ARG4))), add(ARG1, ARG3))), neg(add(add(add(ARG0, ARG1), add(ARG0, ARG1)), ARG0))), neg(neg(ARG6)))), sub(mul(sub(safeDiv(add(mul(add(ARG3, ARG4), add(ARG3, neg(82))), sub(add(437, ARG4), neg(add(437, ARG4)))), 82), add(neg(437), neg(add(234, neg(neg(ARG6)))))), add(ARG2, ARG1)), safeExp(safeDiv(mul(safeDiv(add(ARG6, neg(neg(ARG6))), 234), add(ARG0, ARG1)), 82))))))), neg(neg(neg(neg(add(add(add(safeDiv(add(add(add(234, 437), neg(neg(ARG6))), add(add(437, ARG4), neg(neg(ARG6)))), sub(add(sub(ARG5, add(ARG0, ARG1)), ARG0), mul(234, add(ARG0, neg(82))))), add(neg(82), add(safeLog(safeCos(sub(ARG5, ARG4))), safeLog(safeCos(sub(ARG5, ARG4)))))), safeDiv(mul(234, add(add(safeCos(sub(ARG5, ARG4)), neg(sub(ARG4, ARG6))), neg(neg(ARG6)))), sub(mul(234, add(ARG0, neg(82))), sub(add(ARG3, ARG4), sub(ARG5, ARG1))))), neg(neg(ARG6)))))))), 234), add(ARG1, 234)), 82)) with fitness value: (305.00350809181487,)
+The data line: [35.1, 51.0, 0.0, 6.0, 347.0, 0.0, 122.0] was used as a test. The estimated effort is: 60.018382928662135
+The actual effort is:  50.1
+The data line: [55.0, 14.0, 24.0, 47.0, 202.0, 504.0, 932.0] was used as a test. The estimated effort is: 39.074305332484094
+The actual effort is:  31.5
+The mean average error for the test suite is: 17.492688261146228
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+RUN 4
+Results with the following rates
+Population: 700
+Mutation rate: 0.2 
+Crossover: 0.8
+Generations: 1500
+
+
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\python.exe "C:/Users/Garry/Documents/MSC Advanced Computer Science/Software Engineering/Cost Estimation/Miyazaki.py"
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\deap\tools\_hypervolume\pyhv.py:33: ImportWarning: Falling back to the python version of hypervolume module. Expect this to be very slow.
+  "module. Expect this to be very slow.", ImportWarning)
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\numpy\core\_methods.py:121: RuntimeWarning: overflow encountered in multiply
+  x = um.multiply(x, x, out=x)
+   	      	                  fitness                  	              size             
+   	      	-------------------------------------------	-------------------------------
+gen	nevals	avg         	max         	min 	std	avg    	max	min	std    
+0  	700   	3.11055e+302	2.03714e+305	1937	inf	3.24143	7  	2  	1.28963
+1  	573   	inf         	inf         	1923.34	nan	4.28286	36 	1  	3.64848
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\numpy\core\_methods.py:117: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+2  	594   	3.6132e+298 	2.51403e+301	1923.34	inf	4.80143	46 	1  	4.54303
+3  	587   	inf         	inf         	1831.98	nan	11.0386	42 	1  	6.50867
+4  	579   	6.57801e+296	4.60461e+299	1766.2 	inf	18.2129	50 	1  	8.00583
+5  	573   	inf         	inf         	1364.39	nan	30.5443	67 	3  	10.8936
+6  	585   	3.03892e+284	1.50061e+287	1138.17	inf	36.1257	96 	2  	14.5055
+7  	575   	7.74343e+284	1.50061e+287	1091.18	inf	48.9843	113	1  	17.7821
+8  	596   	1.85292e+299	1.29702e+302	987.968	inf	64.95  	114	1  	13.9171
+9  	589   	inf         	inf         	981.02 	nan	67.2657	130	1  	14.6248
+10 	584   	inf         	inf         	955.738	nan	71.5371	121	6  	15.4109
+
+1490	588   	inf         	inf         	159.563	nan	917.497	963 	608	39.6201
+1491	578   	nan         	nan         	nan    	nan	921.363	953 	624	32.9914
+1492	601   	nan         	nan         	nan    	nan	919.739	976 	329	41.35  
+1493	602   	nan         	nan         	nan    	nan	919.42 	984 	293	41.4352
+1494	599   	nan         	nan         	nan    	nan	914.81 	1025	293	62.8719
+1495	592   	inf         	inf         	159.535	nan	917.743	983 	297	43.9039
+1496	610   	inf         	inf         	159.535	nan	919.76 	1010	608	34.2286
+1497	586   	nan         	nan         	nan    	nan	919.004	963 	297	47.7075
+1498	588   	inf         	inf         	159.387	nan	920.246	959 	600	33.7011
+1499	600   	inf         	inf         	159.364	nan	922.213	1019	297	39.5708
+1500	590   	inf         	inf         	159.248	nan	923.846	1027	296	42.7762
+Best individual is add(add(add(add(neg(safeDiv(sub(safeLog(sub(safeExp(mul(safeSin(neg(add(ARG3, ARG5))), mul(sub(neg(add(ARG4, ARG5)), add(add(add(ARG6, ARG1), neg(ARG2)), add(add(ARG6, ARG0), ARG3))), sub(safeSin(ARG3), neg(mul(safeSin(safeDiv(ARG2, ARG3)), safeCos(safeExp(ARG1)))))))), neg(add(safeExp(add(mul(ARG1, sub(safeSin(ARG5), neg(ARG1))), sub(sub(add(add(ARG1, ARG0), ARG1), ARG5), ARG6))), safeExp(add(add(ARG3, mul(safeCos(add(ARG0, ARG2)), add(ARG4, ARG4))), safeExp(ARG1))))))), mul(add(sub(ARG6, safeCos(add(safeExp(add(add(safeExp(ARG6), ARG4), ARG0)), mul(safeCos(neg(safeDiv(safeDiv(ARG4, ARG2), safeExp(ARG6)))), add(ARG4, ARG4))))), add(safeDiv(add(sub(sub(ARG6, ARG3), sub(ARG0, add(safeCos(ARG6), 215))), neg(ARG3)), ARG2), safeLog(safeExp(sub(sub(mul(ARG6, safeCos(neg(ARG5))), safeDiv(safeLog(add(ARG3, ARG5)), safeCos(ARG6))), safeDiv(sub(412, sub(sub(ARG6, ARG2), add(ARG0, 215))), safeSin(ARG2))))))), safeExp(safeSin(ARG2)))), 186)), safeDiv(neg(sub(sub(sub(ARG6, ARG4), safeLog(sub(safeExp(add(sub(sub(ARG6, safeSin(ARG4)), safeDiv(sub(412, sub(ARG6, add(ARG3, 215))), safeSin(ARG4))), safeDiv(add(safeExp(sub(safeSin(215), neg(ARG1))), mul(mul(ARG6, -244), mul(ARG0, ARG6))), safeDiv(mul(mul(add(215, ARG4), neg(ARG4)), mul(neg(ARG4), sub(ARG6, ARG0))), ARG0)))), safeDiv(sub(neg(add(neg(safeExp(safeDiv(ARG2, ARG1))), safeExp(ARG4))), safeExp(add(safeExp(safeExp(ARG1)), add(add(add(ARG6, ARG3), ARG3), neg(ARG5))))), safeDiv(safeExp(add(add(safeExp(ARG1), safeLog(neg(ARG4))), add(ARG4, ARG6))), safeDiv(mul(neg(safeSin(ARG0)), safeSin(ARG4)), safeLog(safeDiv(ARG2, ARG3)))))))), mul(neg(add(neg(ARG0), safeLog(sub(sub(add(safeExp(ARG1), add(mul(ARG4, ARG1), add(ARG6, ARG4))), mul(sub(ARG4, ARG3), ARG4)), safeDiv(neg(safeExp(ARG1)), safeSin(ARG6)))))), neg(add(neg(ARG0), safeLog(sub(sub(sub(safeExp(sub(safeSin(ARG5), neg(ARG1))), safeDiv(neg(safeExp(ARG1)), safeSin(add(ARG6, ARG2)))), safeDiv(mul(safeDiv(ARG2, ARG3), safeCos(ARG0)), safeSin(ARG4))), safeDiv(safeExp(safeExp(sub(ARG1, ARG2))), safeSin(ARG5))))))))), ARG4)), safeDiv(neg(sub(sub(add(safeLog(sub(mul(add(-120, ARG6), neg(add(safeExp(add(safeExp(ARG1), ARG4)), safeExp(add(ARG0, 215))))), neg(add(safeExp(mul(sub(ARG6, add(ARG0, 215)), safeExp(safeSin(sub(ARG6, ARG2))))), safeExp(add(mul(ARG4, ARG1), ARG6)))))), safeLog(sub(safeExp(sub(add(ARG6, safeDiv(ARG6, ARG4)), add(ARG0, 215))), safeExp(add(sub(ARG6, safeDiv(sub(412, sub(add(ARG6, ARG2), add(ARG0, 215))), safeSin(ARG2))), safeDiv(safeExp(add(safeCos(safeDiv(ARG0, ARG3)), safeExp(ARG1))), safeDiv(mul(mul(add(ARG6, ARG0), -244), mul(neg(ARG0), ARG6)), ARG0))))))), add(safeLog(sub(mul(neg(mul(safeExp(ARG4), safeDiv(sub(safeCos(mul(ARG1, -244)), neg(ARG1)), add(safeExp(add(ARG6, ARG0)), add(sub(ARG6, ARG4), add(ARG1, ARG6)))))), add(add(neg(mul(safeSin(ARG4), neg(safeExp(ARG1)))), safeExp(safeExp(safeExp(safeDiv(ARG2, ARG1))))), safeExp(safeExp(safeExp(safeDiv(ARG2, ARG1)))))), safeDiv(sub(neg(add(safeExp(ARG2), safeExp(ARG4))), safeExp(add(safeExp(safeExp(safeDiv(ARG2, ARG1))), add(add(add(ARG6, ARG3), ARG3), neg(safeDiv(215, ARG2)))))), safeDiv(safeExp(add(safeExp(ARG1), ARG4)), safeDiv(mul(mul(sub(add(ARG6, ARG3), add(215, 215)), mul(add(ARG6, ARG6), -244)), safeSin(ARG4)), safeLog(safeDiv(ARG2, sub(safeSin(ARG6), neg(ARG1))))))))), add(ARG1, 215))), mul(neg(add(add(neg(ARG0), safeLog(sub(safeExp(ARG1), safeDiv(sub(add(neg(ARG0), 215), add(add(ARG6, ARG0), add(ARG6, ARG6))), safeDiv(safeExp(add(safeExp(ARG1), neg(ARG1))), safeDiv(mul(mul(ARG6, -244), mul(ARG0, ARG6)), safeLog(safeDiv(ARG2, ARG3)))))))), safeLog(sub(sub(add(neg(ARG6), safeExp(add(neg(ARG2), safeDiv(safeLog(ARG5), safeCos(ARG6))))), safeDiv(neg(safeExp(ARG1)), add(safeSin(sub(safeDiv(215, ARG3), neg(ARG4))), safeDiv(ARG1, ARG0)))), safeDiv(neg(mul(ARG1, sub(ARG0, neg(ARG0)))), safeSin(ARG4)))))), neg(add(neg(ARG0), safeLog(sub(safeExp(ARG1), safeDiv(sub(neg(mul(ARG0, ARG0)), neg(ARG4)), safeDiv(safeExp(add(safeExp(ARG1), neg(ARG4))), safeDiv(mul(mul(ARG6, -244), mul(ARG0, ARG6)), safeLog(safeDiv(ARG2, ARG3)))))))))))), ARG4)), safeLog(safeExp(ARG1))), add(neg(safeDiv(sub(ARG4, mul(sub(add(sub(add(sub(add(sub(sub(ARG6, ARG2), ARG2), ARG3), ARG2), ARG3), ARG2), ARG3), add(safeDiv(neg(ARG3), safeCos(sub(neg(safeLog(475)), sub(mul(add(ARG1, ARG2), ARG6), neg(ARG4))))), add(neg(ARG3), 215))), safeExp(safeSin(add(ARG6, ARG2))))), 186)), safeLog(neg(add(safeLog(safeExp(mul(safeSin(neg(add(ARG3, ARG5))), mul(sub(neg(add(ARG4, add(ARG0, 215))), add(ARG6, add(add(ARG6, ARG2), ARG0))), sub(safeSin(ARG3), neg(mul(safeSin(safeDiv(ARG2, ARG4)), safeDiv(safeDiv(ARG4, ARG2), safeExp(ARG6))))))))), sub(sub(add(safeLog(sub(mul(add(-120, sub(sub(ARG6, safeExp(safeDiv(ARG2, ARG1))), ARG2)), neg(add(safeExp(add(safeExp(ARG6), add(215, ARG4))), safeExp(add(ARG0, 215))))), neg(add(safeExp(mul(sub(ARG6, add(ARG0, 215)), safeExp(safeSin(sub(ARG6, ARG2))))), safeExp(add(mul(ARG4, ARG1), sub(sub(ARG6, ARG2), ARG0))))))), safeLog(sub(safeExp(sub(add(ARG6, ARG1), add(ARG0, 215))), safeExp(add(sub(add(add(ARG6, ARG2), ARG1), safeDiv(sub(412, sub(add(ARG6, ARG2), add(ARG0, 215))), safeSin(ARG4))), safeDiv(safeExp(add(safeCos(ARG0), safeExp(ARG1))), safeDiv(mul(mul(add(ARG6, ARG0), -244), mul(-244, ARG6)), safeExp(ARG1)))))))), add(safeLog(sub(mul(neg(mul(safeExp(ARG4), safeDiv(sub(mul(ARG3, add(ARG0, ARG2)), add(ARG6, safeDiv(ARG6, ARG4))), add(safeExp(add(215, ARG6)), sub(ARG6, ARG4))))), add(neg(mul(safeSin(ARG4), neg(safeExp(ARG1)))), safeExp(safeExp(safeExp(safeExp(safeDiv(ARG2, ARG1))))))), safeDiv(sub(neg(add(sub(ARG0, safeExp(ARG0)), safeExp(ARG4))), safeExp(add(safeExp(safeExp(safeDiv(ARG2, ARG1))), add(add(add(ARG6, ARG1), ARG1), neg(safeDiv(215, ARG2)))))), safeDiv(safeExp(add(safeExp(ARG1), ARG4)), safeDiv(mul(mul(sub(ARG6, add(215, 215)), mul(ARG0, -244)), safeSin(ARG4)), safeLog(safeDiv(ARG2, sub(safeSin(ARG6), neg(ARG1))))))))), 215)), add(ARG6, neg(ARG0)))))))) with fitness value: (159.24827338624124,)
+The data line: [35.1, 51.0, 0.0, 6.0, 347.0, 0.0, 122.0] was used as a test. The estimated effort is: 60.63599985918429
+The actual effort is:  50.1
+The data line: [55.0, 14.0, 24.0, 47.0, 202.0, 504.0, 932.0] was used as a test. The estimated effort is: 32.3361420695021
+The actual effort is:  31.5
+The mean average error for the test suite is: 11.37214192868639
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+RUN 5
+Results with the following rates
+Population: 700
+Mutation rate: 0.2 
+Crossover: 0.8
+Generations: 1500
+
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\python.exe "C:/Users/Garry/Documents/MSC Advanced Computer Science/Software Engineering/Cost Estimation/Miyazaki.py"
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\deap\tools\_hypervolume\pyhv.py:33: ImportWarning: Falling back to the python version of hypervolume module. Expect this to be very slow.
+  "module. Expect this to be very slow.", ImportWarning)
+   	      	                  fitness                  	              size             
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\numpy\core\_methods.py:121: RuntimeWarning: overflow encountered in multiply
+   	      	-------------------------------------------	-------------------------------
+gen	nevals	avg         	max         	min 	std	avg    	max	min	std    
+  x = um.multiply(x, x, out=x)
+0  	700   	1.07744e+299	2.51403e+301	1937	inf	3.23143	7  	2  	1.28314
+1  	577   	4.83238e+301	3.38267e+304	1921.4	inf	4.71   	41 	1  	4.07994
+2  	599   	7.14703e+301	5.00292e+304	1921.4	inf	4.87143	43 	1  	4.75912
+3  	565   	4.07752e+298	2.51403e+301	1919.93	inf	6.07571	33 	1  	4.01266
+4  	600   	1.45249e+301	1.01423e+304	1913.79	inf	6.63   	41 	1  	4.50732
+5  	578   	1.29588e+299	9.07115e+301	1900.01	inf	10.0329	42 	1  	4.47505
+C:\Users\Garry\AppData\Local\Programs\Python\Python37-32\lib\site-packages\numpy\core\_methods.py:117: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+6  	597   	inf         	inf         	1852.7 	nan	12.1271	47 	1  	5.11464
+7  	595   	inf         	inf         	1481.89	nan	14.5529	52 	1  	6.46607
+8  	580   	1.78809e+297	1.25166e+300	1347.32	inf	18.28  	60 	1  	7.51694
+9  	594   	4.46708e+301	3.12696e+304	1111.18	inf	18.5729	57 	1  	7.76211
+10 	584   	5.84643e+288	4.09073e+291	1052.67	inf	21.9086	59 	1  	9.2056 
+
+1490	587   	1.0317e+270 	7.22188e+272	568.141	inf         	421.967	510	11 	28.9006
+1491	571   	2.52386e+304	1.7667e+307 	568.14 	inf         	422.061	463	10 	34.447 
+1492	579   	1.55448e+303	1.08814e+306	568.14 	inf         	418.844	458	12 	44.3346
+1493	589   	8.14033e+118	5.69823e+121	568.138	2.15219e+120	414.877	548	8  	43.9659
+1494	612   	2.64004e+178	1.84803e+181	568.138	inf         	417.371	500	9  	42.6871
+1495	598   	2.82214e+158	1.9755e+161 	568.138	inf         	416.753	505	8  	40.4969
+1496	565   	5.61298e+157	3.92908e+160	568.137	inf         	417.187	507	25 	33.5232
+1497	608   	4.48788e+287	3.14152e+290	568.137	inf         	414.339	475	7  	42.5366
+1498	611   	3.59147e+298	2.51403e+301	568.136	inf         	415.263	504	10 	40.6626
+1499	596   	3.48953e+256	2.44267e+259	568.136	inf         	415.964	460	13 	36.4322
+1500	600   	1.25573e+283	8.79013e+285	568.112	inf         	413.821	509	9  	43.1319
+Best individual is add(add(mul(safeDiv(ARG3, ARG2), ARG2), ARG2), neg(safeDiv(add(sub(sub(mul(safeDiv(safeCos(add(add(mul(safeDiv(ARG3, ARG2), ARG2), neg(-77)), safeDiv(add(add(mul(safeDiv(ARG3, ARG2), ARG2), ARG3), safeDiv(sub(-453, add(neg(ARG3), add(ARG3, -97))), neg(add(ARG0, add(ARG3, -97))))), ARG3))), safeLog(safeLog(safeLog(ARG2)))), add(safeCos(sub(ARG0, safeDiv(ARG0, safeExp(safeLog(safeCos(301)))))), add(safeCos(ARG0), safeCos(ARG6)))), neg(ARG1)), safeLog(neg(neg(safeSin(safeExp(neg(add(ARG4, add(sub(ARG0, safeDiv(neg(ARG1), ARG2)), add(mul(safeSin(safeLog(ARG0)), ARG2), ARG3)))))))))), ARG3), safeDiv(sub(-453, add(safeDiv(sub(safeDiv(sub(add(add(mul(safeDiv(add(add(ARG3, ARG1), safeDiv(add(ARG3, ARG3), -97)), safeCos(ARG4)), ARG2), add(mul(safeDiv(ARG3, ARG3), neg(ARG0)), neg(add(ARG0, add(ARG2, -97))))), safeDiv(add(add(safeDiv(ARG4, ARG2), add(add(add(ARG3, ARG2), ARG0), ARG0)), add(mul(sub(ARG1, ARG0), add(add(ARG3, -97), ARG1)), safeDiv(ARG2, safeCos(ARG0)))), ARG3)), add(mul(safeDiv(add(safeDiv(ARG5, ARG3), add(ARG3, ARG5)), ARG2), safeDiv(ARG5, safeCos(ARG0))), safeDiv(neg(-97), safeExp(add(add(add(ARG3, -97), ARG1), safeCos(ARG1)))))), add(neg(neg(ARG3)), safeExp(neg(mul(safeExp(safeCos(add(-97, -97))), ARG2))))), safeDiv(add(add(ARG3, ARG1), ARG1), safeDiv(-148, add(safeExp(neg(add(ARG0, add(ARG3, -97)))), ARG2)))), mul(safeDiv(ARG3, ARG2), ARG2)), safeDiv(neg(-97), safeExp(add(add(add(ARG3, -97), sub(safeSin(mul(safeCos(safeDiv(safeDiv(ARG4, ARG2), sub(ARG1, ARG0))), neg(add(add(ARG3, ARG2), ARG0)))), mul(safeCos(safeDiv(add(ARG0, add(ARG0, add(ARG3, ARG2))), add(ARG4, safeDiv(sub(ARG1, ARG6), safeCos(ARG0))))), neg(safeLog(add(ARG4, add(ARG0, add(ARG3, -97)))))))), add(add(mul(safeDiv(mul(safeDiv(ARG3, ARG2), ARG2), ARG2), ARG2), ARG3), safeDiv(neg(mul(sub(neg(add(neg(ARG6), -148)), add(add(neg(ARG6), -97), safeDiv(safeDiv(ARG0, ARG2), safeCos(ARG4)))), add(safeLog(ARG6), ARG2))), safeExp(ARG2)))))))), neg(safeDiv(add(add(add(add(ARG3, ARG2), ARG1), ARG0), safeDiv(sub(safeDiv(mul(safeCos(sub(safeCos(ARG0), safeSin(-97))), neg(add(add(mul(safeDiv(ARG3, ARG2), ARG2), ARG2), ARG3))), add(safeExp(neg(add(ARG0, add(ARG3, -97)))), sub(add(add(ARG3, -97), ARG1), add(add(ARG2, ARG2), safeExp(-97))))), neg(add(neg(neg(ARG3)), safeDiv(add(add(add(ARG3, add(ARG3, -97)), -97), add(-97, add(-97, -97))), sub(neg(safeDiv(mul(ARG3, safeCos(-270)), neg(ARG2))), mul(safeLog(safeLog(ARG4)), safeDiv(safeExp(safeDiv(ARG5, ARG2)), safeDiv(safeDiv(ARG6, ARG3), safeDiv(ARG2, ARG2))))))))), add(safeCos(ARG0), safeCos(ARG6)))), safeDiv(sub(-453, ARG2), add(add(ARG3, safeLog(ARG5)), neg(safeLog(add(add(mul(safeDiv(ARG3, ARG2), ARG2), ARG2), ARG1))))))))))) with fitness value: (568.1117872693131,)
+The data line: [35.1, 51.0, 0.0, 6.0, 347.0, 0.0, 122.0] was used as a test. The estimated effort is: 9.614943170344988
+The actual effort is:  50.1
+The data line: [55.0, 14.0, 24.0, 47.0, 202.0, 504.0, 932.0] was used as a test. The estimated effort is: 71.00000000001917
+The actual effort is:  31.5
+The mean average error for the test suite is: 0.9850568296358446
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RUN 6
+results...
+population: 750
+mutation rate: 0.2
+crossover: 0.9
+generations: 1500
+
+C:\Users\Pamela\PycharmProjects\helloworld\venv\Scripts\python.exe C:/Users/Pamela/Desktop/atsc/Miyazaki.py
+C:\Users\Pamela\PycharmProjects\helloworld\venv\lib\site-packages\deap\tools\_hypervolume\pyhv.py:33: ImportWarning: Falling back to the python version of hypervolume module. Expect this to be very slow.
+  "module. Expect this to be very slow.", ImportWarning)
+C:\Users\Pamela\PycharmProjects\helloworld\venv\lib\site-packages\numpy\core\_methods.py:121: RuntimeWarning: overflow encountered in multiply
+   	      	                  fitness                  	              size             
+  x = um.multiply(x, x, out=x)
+   	      	-------------------------------------------	-------------------------------
+gen	nevals	avg         	max         	min 	std	avg  	max	min	std    
+0  	750   	3.35255e+299	2.51403e+301	1937	inf	3.292	7  	2  	1.36872
+C:\Users\Pamela\PycharmProjects\helloworld\venv\lib\site-packages\numpy\core\_methods.py:117: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+1  	688   	inf         	inf         	1926	nan	4.58533	38 	1  	4.13216
+2  	694   	nan         	nan         	nan 	nan	5.16667	40 	1  	5.20463
+C:\Users\Pamela\PycharmProjects\helloworld\venv\lib\site-packages\numpy\core\fromnumeric.py:83: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+3  	695   	nan         	nan         	nan 	nan	14.9627	46 	1  	8.81551
+4  	701   	nan         	nan         	nan 	nan	20.7267	68 	1  	11.5004
+5  	693   	inf         	inf         	1899.17	nan	20.284 	53 	2  	9.45858
+6  	693   	5.3652e+299 	2.51403e+301	1895.5 	inf	23.2907	76 	1  	12.758 
+7  	696   	inf         	inf         	1881.37	nan	27.8093	75 	3  	13.3471
+8  	682   	inf         	inf         	1858.53	nan	33.9693	82 	1  	13.8136
+9  	692   	1.37296e+304	1.02944e+307	1855.05	inf	43.624 	92 	1  	14.5803
+10 	697   	2.71916e+302	2.03584e+305	1851.82	inf	46.688 	103	1  	14.7064
+
+1490	685   	inf         	inf         	123.061	nan	545.724	667 	279	24.4041
+1491	691   	2.71287e+299	5.75438e+301	123.061	inf	542.588	652 	281	33.4126
+1492	704   	inf         	inf         	123.061	nan	541.835	611 	3  	39.389 
+1493	694   	inf         	inf         	123.061	nan	543.957	604 	1  	34.4642
+1494	691   	inf         	inf         	123.061	nan	543.427	662 	7  	39.2448
+1495	685   	inf         	inf         	123.061	nan	544.789	631 	13 	32.9053
+1496	694   	2.71652e+302	2.03714e+305	123.061	inf	542.951	651 	8  	46.1912
+1497	688   	4.39811e+299	3.03167e+302	123.061	inf	544.395	663 	271	29.8316
+1498	675   	4.11805e+300	3.01824e+303	123.061	inf	544.675	585 	6  	32.5234
+1499	691   	inf         	inf         	123.061	nan	544.615	614 	6  	31.7975
+1500	692   	inf         	inf         	123.061	nan	544.109	610 	13 	32.529 
+Best individual is add(sub(sub(sub(ARG1, safeExp(mul(safeCos(mul(add(safeLog(sub(safeExp(ARG4), sub(mul(sub(mul(sub(mul(ARG4, ARG4), ARG5), ARG0), safeLog(safeCos(ARG0))), safeDiv(safeCos(ARG1), safeSin(safeCos(ARG2)))), safeExp(ARG4)))), sub(safeLog(sub(sub(add(add(add(add(-158, ARG4), mul(ARG1, ARG2)), mul(ARG1, ARG2)), safeLog(safeExp(mul(ARG1, ARG1)))), -416), sub(mul(ARG3, ARG4), safeLog(safeExp(mul(mul(ARG1, ARG2), ARG2)))))), add(safeCos(safeDiv(add(add(add(neg(ARG6), ARG5), mul(neg(ARG4), safeSin(ARG0))), safeExp(mul(ARG1, ARG1))), ARG1)), safeCos(add(85, ARG6))))), sub(safeLog(sub(safeLog(sub(add(neg(safeSin(ARG4)), safeSin(neg(safeSin(-416)))), safeCos(ARG3))), sub(mul(ARG1, ARG2), ARG5))), add(safeSin(neg(ARG4)), safeCos(add(safeExp(ARG5), mul(ARG5, safeSin(safeLog(ARG6))))))))), mul(add(safeLog(add(safeLog(sub(safeDiv(safeExp(safeDiv(ARG1, ARG3)), ARG5), safeSin(safeDiv(ARG1, add(ARG0, safeExp(mul(ARG5, ARG3))))))), safeExp(safeSin(ARG1)))), safeExp(safeExp(mul(ARG3, ARG3)))), safeCos(safeDiv(add(add(safeExp(ARG5), mul(ARG1, ARG3)), sub(mul(ARG5, ARG3), safeSin(safeLog(add(safeLog(safeSin(ARG2)), safeExp(safeSin(ARG1))))))), safeLog(safeSin(ARG4)))))))), safeExp(mul(safeCos(safeLog(safeExp(mul(ARG1, ARG1)))), mul(add(safeLog(add(safeLog(sub(safeDiv(ARG5, ARG4), safeSin(ARG1))), safeExp(safeSin(ARG1)))), safeExp(safeSin(ARG1))), safeCos(mul(add(add(neg(mul(sub(safeSin(safeExp(ARG4)), safeDiv(safeDiv(sub(mul(ARG1, ARG0), ARG5), add(-158, ARG1)), safeSin(ARG4))), ARG0)), safeLog(safeDiv(safeDiv(safeExp(safeLog(ARG4)), safeCos(mul(sub(mul(ARG1, ARG0), ARG5), safeExp(safeLog(ARG4))))), safeSin(ARG1)))), safeCos(mul(safeCos(safeDiv(add(add(neg(ARG5), mul(mul(ARG1, ARG4), safeSin(ARG1))), add(ARG0, safeExp(mul(ARG4, ARG1)))), ARG5)), safeExp(safeLog(ARG4))))), sub(safeLog(safeCos(ARG5)), safeSin(safeSin(safeExp(safeLog(ARG4))))))))))), mul(add(safeLog(sub(safeDiv(mul(add(safeLog(sub(mul(sub(mul(ARG1, ARG3), ARG5), mul(ARG1, sub(85, add(safeDiv(ARG4, ARG3), ARG1)))), safeCos(safeExp(safeDiv(safeLog(ARG4), safeSin(safeLog(mul(ARG1, ARG0)))))))), safeDiv(sub(safeDiv(safeDiv(safeDiv(mul(mul(ARG5, safeSin(ARG1)), mul(ARG5, ARG1)), safeCos(mul(sub(85, ARG5), ARG5))), safeCos(mul(sub(85, ARG5), ARG5))), safeSin(safeExp(mul(ARG1, ARG3)))), safeExp(ARG1)), mul(ARG4, ARG3))), safeCos(safeDiv(add(safeExp(ARG5), safeDiv(safeCos(add(ARG0, ARG3)), safeSin(safeCos(safeExp(safeLog(ARG4)))))), safeLog(mul(ARG5, ARG3))))), safeExp(ARG2)), safeSin(safeLog(add(safeSin(mul(ARG1, safeLog(ARG6))), safeDiv(safeDiv(safeExp(mul(ARG1, mul(mul(ARG1, ARG1), ARG1))), safeSin(safeCos(ARG1))), ARG1)))))), add(safeLog(sub(sub(safeDiv(sub(sub(mul(ARG5, ARG0), safeDiv(ARG5, safeCos(mul(sub(ARG2, -439), ARG5)))), 85), ARG4), safeDiv(sub(add(safeExp(ARG5), mul(add(ARG4, add(safeDiv(sub(mul(ARG1, ARG0), add(ARG0, ARG1)), add(-158, ARG1)), ARG1)), safeSin(ARG1))), safeDiv(safeDiv(sub(mul(ARG1, ARG0), ARG4), add(safeDiv(sub(mul(ARG1, ARG0), add(-158, safeDiv(-158, ARG3))), add(-158, ARG1)), ARG1)), safeSin(ARG4))), safeExp(safeDiv(safeDiv(add(add(add(add(safeExp(ARG4), mul(ARG1, ARG3)), ARG3), ARG1), safeDiv(safeCos(safeLog(mul(ARG1, ARG2))), safeSin(safeCos(ARG2)))), safeLog(safeSin(ARG4))), ARG5)))), mul(safeLog(safeDiv(safeCos(safeDiv(ARG5, neg(safeLog(mul(ARG4, ARG2))))), safeSin(safeCos(ARG3)))), ARG3))), safeExp(safeSin(ARG4)))), mul(safeCos(safeDiv(sub(mul(ARG1, ARG0), ARG5), add(-158, ARG1))), mul(add(sub(safeDiv(ARG5, ARG4), safeSin(add(add(add(add(add(neg(ARG6), safeLog(ARG6)), mul(ARG1, ARG3)), ARG1), ARG1), add(-158, ARG1)))), safeExp(safeExp(ARG5))), safeCos(safeDiv(add(safeExp(ARG5), mul(ARG5, safeSin(ARG1))), safeLog(safeSin(ARG4)))))))), ARG3) with fitness value: (123.06126161207459,)
+The data line: [35.1, 51.0, 0.0, 6.0, 347.0, 0.0, 122.0] was used as a test. The estimated effort is: 21.483754021504392
+The actual effort is:  50.1
+The data line: [55.0, 14.0, 24.0, 47.0, 202.0, 504.0, 932.0] was used as a test. The estimated effort is: 64.388718890668
+The actual effort is:  31.5
+The mean average error for the test suite is: 4.27247291217239
+
+Process finished with exit code 0
+

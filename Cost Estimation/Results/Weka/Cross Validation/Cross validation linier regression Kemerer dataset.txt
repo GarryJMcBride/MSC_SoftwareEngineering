@@ -1,0 +1,42 @@
+Cross validation linier regression Kemerer dataset:
+
+Weka does stratified cross-validation by default. And with 10-fold cross-validation, Weka invokes the learning algorithm 11 times, one for each fold of the cross-validation and then a final time on the entire dataset. ... It depends on the number of classes in your dataset.
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     kemerer-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    15
+Attributes:   7
+              Language
+              Hardware
+              Duration
+              KSLOC
+              AdjFP
+              RAWFP
+              EffortMM
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+EffortMM =
+
+     53.4674 * Hardware +
+      0.389  * AdjFP +
+   -294.1583
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.3664
+Mean absolute error                    204.2888
+Root mean squared error                281.0625
+Relative absolute error                126.9399 %
+Root relative squared error            104.7467 %
+Total Number of Instances               15     
+

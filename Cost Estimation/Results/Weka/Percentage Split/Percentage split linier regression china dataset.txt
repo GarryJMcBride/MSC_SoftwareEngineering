@@ -1,0 +1,64 @@
+Percentage split linier regression china dataset:
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     china-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    499
+Attributes:   18
+              AFP
+              Input
+              Output
+              Enquiry
+              File
+              Interface
+              Added
+              Changed
+              Deleted
+              PDR_AFP
+              PDR_UFP
+              NPDR_AFP
+              NPDU_UFP
+              Resource
+              Dev.Type
+              Duration
+              N_effort
+              Effort
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+Effort =
+
+      0.7422 * AFP +
+     -0.978  * Input +
+      0.4764 * Output +
+     -0.8775 * Enquiry +
+      0.5593 * File +
+     -1.8319 * Interface +
+      0.2308 * Added +
+    252.4448 * PDR_AFP +
+    -24.802  * PDR_UFP +
+   -188.5521 * NPDR_AFP +
+    167.1621 * Resource +
+      0.8404 * N_effort +
+   -375.2181
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.9787
+Mean absolute error                    335.7262
+Root mean squared error               1092.4369
+Relative absolute error                 11.0629 %
+Root relative squared error             27.9582 %
+Total Number of Instances              170     
+

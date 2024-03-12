@@ -1,0 +1,45 @@
+Cross validation linier regression Miyazaki dataset:
+
+Weka does stratified cross-validation by default. And with 10-fold cross-validation, Weka invokes the learning algorithm 11 times, one for each fold of the cross-validation and then a final time on the entire dataset. ... It depends on the number of classes in your dataset.
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     miyazaki1-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    48
+Attributes:   8
+              KLOC
+              SCRN
+              FORM
+              FILE
+              ESCRN
+              EFORM
+              EFILE
+              MM
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+MM =
+
+      0.6945 * KLOC +
+     -0.0346 * ESCRN +
+      0.031  * EFILE +
+     -1.0069
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9058
+Mean absolute error                     49.591 
+Root mean squared error                155.921 
+Relative absolute error                 56.0201 %
+Root relative squared error             67.4453 %
+Total Number of Instances               48     
+
+

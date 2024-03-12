@@ -1,0 +1,46 @@
+Training set linier regression Miyzaki dataset:
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     miyazaki1-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    48
+Attributes:   8
+              KLOC
+              SCRN
+              FORM
+              FILE
+              ESCRN
+              EFORM
+              EFILE
+              MM
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+MM =
+
+      0.6945 * KLOC +
+     -0.0346 * ESCRN +
+      0.031  * EFILE +
+     -1.0069
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.9895
+Mean absolute error                     22.8875
+Root mean squared error                 32.6447
+Relative absolute error                 26.4315 %
+Root relative squared error             14.4213 %
+Total Number of Instances               48     
+
+

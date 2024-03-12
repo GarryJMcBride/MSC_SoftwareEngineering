@@ -1,0 +1,45 @@
+Percentage split linier regression Miyazaki dataset:
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     miyazaki1-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    48
+Attributes:   8
+              KLOC
+              SCRN
+              FORM
+              FILE
+              ESCRN
+              EFORM
+              EFILE
+              MM
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+MM =
+
+      0.6945 * KLOC +
+     -0.0346 * ESCRN +
+      0.031  * EFILE +
+     -1.0069
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.5078
+Mean absolute error                     37.8645
+Root mean squared error                 46.6041
+Relative absolute error                 59.5464 %
+Root relative squared error             67.3941 %
+Total Number of Instances               16     
+
