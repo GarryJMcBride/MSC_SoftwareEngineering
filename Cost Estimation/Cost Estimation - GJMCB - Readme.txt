@@ -2,7 +2,7 @@ Garry James McBride
 MSc Advanced Computer Science 
 Cost Estimation for Advanced Topic in Software Engineering (CS547)
 
-I have wrote my Sybolic Regression In - Python3.7.0
+I have wrote my Symbolic Regression In - Python3.7.0
 
 Integrated development environment (IDE) - PyCharm from Jetbrains
 
